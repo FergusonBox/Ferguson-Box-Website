@@ -1,0 +1,85 @@
+$background-white: #F3F3F3;
+$highlight-white: #FFFFFF;
+
+$fb-green: #007550;
+$fb-light-green: #00865c;
+
+$font-family: 'Roboto', sans-serif;
+
+$transition-time: 200ms;
+$transition-timing: ease-out;
+
+html {
+  height: 100%;
+
+  background-color: $background-white;
+  font-family: $font-family;
+  font-size: 14pt;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  -webkit-font-smoothing: subpixel-antialiased;
+
+  background-color: $highlight-white;
+}
+
+a {
+  text-decoration: none;
+
+  transition: none $transition-time $transition-timing;
+  transition-property: color;
+}
+
+// Even smaller screens
+$screen-mobile-portrait: 530px;
+
+// Small tablets and large smartphones (landscape view)
+$screen-mobile: 576px;
+
+// Small tablets (portrait view)
+$screen-tablet: 768px;
+
+// Tablets and small desktops
+$screen-desktop: 992px;
+
+// Large tablets and desktops
+$screen-xl-desktop: 2000px;
+
+// Small devices
+@mixin sm-mobile {
+	@media (min-width: #{$screen-mobile-portrait}) {
+		@content;
+	}
+}
+
+
+// Small devices
+@mixin mobile {
+	@media (min-width: #{$screen-mobile}) {
+		@content;
+	}
+ }
+ 
+ // Medium devices
+ @mixin tablet {
+	@media (min-width: #{$screen-tablet}) {
+		@content;
+	}
+ }
+ 
+ // Large devices
+ @mixin desktop {
+	@media (min-width: #{$screen-desktop}) {
+		@content;
+	}
+ }
+ 
+ // Extra large devices
+ @mixin xl-desktop {
+	@media (min-width: #{$screen-xl-desktop}) {
+		@content;
+	}
+}
