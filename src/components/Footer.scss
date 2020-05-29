@@ -1,0 +1,27 @@
+@import '../variables.scss';
+
+.footer {
+  max-width: 1100px;
+
+  padding: 1rem 0;
+  margin: auto;
+
+  background-color: $fb-green;
+  color: white;
+
+  text-align: center;
+
+  font-size: 12pt;
+
+  &__certifications {
+    &__item { 
+      color: white;
+      text-decoration: underline;
+      padding: 0 1rem;
+    }
+  }
+
+  &__content {
+    margin-bottom: 0;
+  }
+}
