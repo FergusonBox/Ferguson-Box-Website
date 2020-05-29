@@ -26,15 +26,15 @@ const Header = () => {
         <Img fixed={data.logo.childImageSharp.fixed} alt="Ferguson Box logo" />
       </a>
       <div className="header__certifications">
-        <div className="header__certifications__item">
+        <a className="header__certifications__item" href="../docs/iso_certificate.pdf" target="_blank">
           <img src={ISOCert} alt="ISO 9001 Certified"></img>
-        </div>
-        <div className="header__certifications__item">
+        </a>
+        <a className="header__certifications__item" href="../docs/sfi_certificate.pdf" target="_blank">
           <img src={SFICert} alt="SFI Certified"></img>
-        </div>
-        <div className="header__certifications__item">
+        </a>
+        <a className="header__certifications__item" href="../docs/wbenc_certificate.pdf" target="_blank">
           <img src={WBENCCert} alt="Certified WBENC"></img>
-        </div>
+        </a>
       </div>
     </div>
   )
