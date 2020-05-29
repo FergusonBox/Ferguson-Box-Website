@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Ferguson Box Website',
+    title: 'Ferguson Box',
     description:
       'Packaging Done Right',
     keywords:
