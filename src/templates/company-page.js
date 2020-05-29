@@ -4,32 +4,32 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 
-import './display-page.scss'
+import './company-page.scss'
 
-export const DisplayPageTemplate = ({
+export const CompanyPageTemplate = ({
   heading,
   html
 }) => (
-  <div className="display-page">
+  <div className="company-page">
     <h1>{heading}</h1>
     <div 
-      className="display-page__content" 
+      className="company-page__content" 
       dangerouslySetInnerHTML={{ __html: html }}>
     </div>
   </div>
 )
 
-DisplayPageTemplate.propTypes = {
+CompanyPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   heading: PropTypes.string.isRequired,
 }
 
-const DisplayPage = ({ data }) => {
+const CompanyPage = ({ data }) => {
   const { html, frontmatter } = data.markdownRemark
 
   return (
     <Layout>
-      <DisplayPageTemplate
+      <CompanyPageTemplate
         html={html}
         heading={frontmatter.heading}
       />
@@ -37,7 +37,7 @@ const DisplayPage = ({ data }) => {
   )
 }
 
-DisplayPage.propTypes = {
+CompanyPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       html: PropTypes.object,
@@ -46,10 +46,10 @@ DisplayPage.propTypes = {
   }),
 }
 
-export default DisplayPage
+export default CompanyPage
 
 export const pageQuery = graphql`
-  query DisplayPageTemplate($id: String!) {
+  query CompanyPageTemplate($id: String!) {
     markdownRemark(id: { eq: $id } ) {
       html
       frontmatter {
