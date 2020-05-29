@@ -2,6 +2,10 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
+import ISOCert from '../img/iso_cert_badge.png'
+import SFICert from '../img/sfi_cert_badge.png'
+import WBENCCert from '../img/wbenc_cert_badge.png'
+
 import './Header.scss'
 
 const Header = () => {
@@ -10,27 +14,6 @@ const Header = () => {
       logo: file(relativePath: { eq: "ferguson_box_logo.png" }) {
         childImageSharp {
           fixed(width: 180, height: 112) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      cert1: file(relativePath: { eq: "iso_cert_badge.png" }) {
-        childImageSharp {
-          fixed(width: 180, height: 55) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      cert2: file(relativePath: { eq: "sfi_cert_badge.png" }) {
-        childImageSharp {
-          fixed(width: 150, height: 70) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      cert3: file(relativePath: { eq: "wbenc_cert_badge.png" }) {
-        childImageSharp {
-          fixed(width: 150, height: 60) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -44,13 +27,13 @@ const Header = () => {
       </a>
       <div className="header__certifications">
         <div className="header__certifications__item">
-          <Img fixed={data.cert1.childImageSharp.fixed} alt="Ferguson Box logo" />
+          <img src={ISOCert} alt="ISO 9001 Certified"></img>
         </div>
         <div className="header__certifications__item">
-          <Img fixed={data.cert2.childImageSharp.fixed} alt="Ferguson Box logo" />
+          <img src={SFICert} alt="SFI Certified"></img>
         </div>
         <div className="header__certifications__item">
-          <Img fixed={data.cert3.childImageSharp.fixed} alt="Ferguson Box logo" />
+          <img src={WBENCCert} alt="Certified WBENC"></img>
         </div>
       </div>
     </div>
