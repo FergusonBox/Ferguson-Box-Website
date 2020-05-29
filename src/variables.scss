@@ -9,10 +9,14 @@ $font-family: 'Roboto', sans-serif;
 $transition-time: 200ms;
 $transition-timing: ease-out;
 
+$header-height: 6rem;
+$footer-height: 4rem;
+
 html {
   height: 100%;
 
   background-color: $background-white;
+
   font-family: $font-family;
   font-size: 14pt;
 }
@@ -22,8 +26,11 @@ body {
   padding: 0;
 
   -webkit-font-smoothing: subpixel-antialiased;
+}
 
-  background-color: $highlight-white;
+h1 {
+  font-size: 32pt;
+  font-weight: 300;
 }
 
 a {
