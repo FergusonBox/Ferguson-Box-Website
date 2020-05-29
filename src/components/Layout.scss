@@ -8,4 +8,8 @@
   min-height: calc(100vh - #{$header-height} - #{$footer-height} - 7rem);
   
   background-color: $highlight-white;
+
+  > div {
+    padding: 2.5rem;
+  }
 }
