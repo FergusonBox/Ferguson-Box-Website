@@ -6,6 +6,8 @@ import Header from '../components/Header'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
+import './Layout.scss'
+
 const TemplateWrapper = ({ children }) => {
   const { title, description, tags } = useSiteMetadata()
   return (
@@ -51,7 +53,9 @@ const TemplateWrapper = ({ children }) => {
       </Helmet>
       <Header />
       <Navbar />
-        <div>{children}</div>
+      <div className="page-content">
+        {children}
+      </div>
       <Footer />
     </div>
   )

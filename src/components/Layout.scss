@@ -1,0 +1,11 @@
+@import '../variables.scss';
+
+.page-content {
+  margin: auto;
+  margin-top: calc(#{$header-height} / 2);
+
+  max-width: 1100px;
+  min-height: calc(100vh - #{$header-height} - #{$footer-height} - 7rem);
+  
+  background-color: $highlight-white;
+}
