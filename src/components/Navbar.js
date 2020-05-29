@@ -64,19 +64,19 @@ const Navbar = class extends React.Component {
                 className={`navbar__menu ${this.state.navBarActiveClass}`}
               >
                 <div className="navbar__start">
-                  <Link className={`navbar__item ${pathname.includes('company') && 'active'}`} to="/our-company">
+                  <Link className="navbar__item" to="/our-company" activeClassName="active">
                     OUR COMPANY
                   </Link>
-                  <Link className={`navbar__item ${pathname.includes('capabilities') && 'active'}`} to="/capabilities">
+                  <Link className="navbar__item" to="/capabilities" activeClassName="active">
                     CAPABILITIES
                   </Link>
-                  <Link className={`navbar__item ${pathname.includes('services') && 'active'}`} to="/services">
+                  <Link className="navbar__item" to="/services" activeClassName="active">
                     SERVICES
                   </Link>
-                  <Link className={`navbar__item ${pathname.includes('products') && 'active'}`} to="/products">
+                  <Link className="navbar__item" to="/products" activeClassName="active">
                     PRODUCTS
                   </Link>
-                  <Link className={`navbar__item ${pathname.includes('contact') && 'active'}`} to="/contact">
+                  <Link className="navbar__item" to="/contact" activeClassName="active">
                     CONTACT US
                   </Link>
                 </div>
