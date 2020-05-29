@@ -1,15 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import Layout from '../components/Layout'
+import QuickLink from '../components/QuickLink'
 
 import './index-page.scss'
 
 export const IndexPageTemplate = ({
   heading,
   image,
+  quickLinks,
   html
 }) => (
   <div className="home-page">
@@ -19,12 +21,29 @@ export const IndexPageTemplate = ({
       className="home-page__content" 
       dangerouslySetInnerHTML={{ __html: html }}>
     </div>
+    <div className="home-page__quick-links">
+      {quickLinks && quickLinks.map(({
+          title,
+          text,
+          link,
+          linkText
+        }) => (
+        <QuickLink
+          title={title}
+          text={text}
+          link={link}
+          linkText={linkText}
+        />
+      ))}
+    </div>
   </div>
 )
 
 IndexPageTemplate.propTypes = {
-  heading: PropTypes.string.isRequired,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  heading: PropTypes.string.isRequired,
+  
+  quickLinks: PropTypes.array,
 }
 
 const IndexPage = ({ data }) => {
@@ -35,6 +54,7 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         html={html}
         image={frontmatter.image}
+        quickLinks={frontmatter.quickLinks}
         heading={frontmatter.heading}
       />
     </Layout>
@@ -64,6 +84,12 @@ export const pageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+        }
+        quickLinks {
+          title
+          text
+          link
+          linkText
         }
       }
     }

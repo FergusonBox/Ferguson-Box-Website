@@ -3,6 +3,7 @@ $highlight-white: #FFFFFF;
 
 $fb-green: #007550;
 $fb-light-green: #00865c;
+$light-gray: #D3D3D3;
 
 $font-family: 'Roboto', sans-serif;
 
@@ -28,9 +29,12 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
+h1, h2 {
+  font-weight: 300;
+}
+
 h1 {
   font-size: 32pt;
-  font-weight: 300;
 }
 
 a {
