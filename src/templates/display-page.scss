@@ -1,0 +1,31 @@
+@import '../variables.scss';
+
+.display-page {
+  
+  h1 {
+    text-transform: uppercase;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  ul {
+    list-style: square;
+  }
+
+  ul ul {
+    list-style: circle;
+  }
+
+  li p {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: underline;
+    
+    color: $fb-green;
+  }
+
+}
