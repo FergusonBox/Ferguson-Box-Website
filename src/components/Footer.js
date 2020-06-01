@@ -20,15 +20,15 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__certifications">
-        <a className="footer__certifications__item" href={data.ISOCert.publicURL} target="_blank">
+        <a className="footer__certifications__item" href={data.ISOCert.publicURL} target="_blank" rel="noreferrer">
           ISO 9001 Certified
         </a>
         <span>|</span>
-        <a className="footer__certifications__item" href={data.SFICert.publicURL} target="_blank">
+        <a className="footer__certifications__item" href={data.SFICert.publicURL} target="_blank" rel="noreferrer">
           SFI Certified
         </a>
         <span>|</span>
-        <a className="footer__certifications__item" href={data.WBENCCert.publicURL} target="_blank">
+        <a className="footer__certifications__item" href={data.WBENCCert.publicURL} target="_blank" rel="noreferrer">
           WBENC Certified
         </a>
       </div>
