@@ -4,6 +4,8 @@
   width: 27.5%;
   padding: 3rem 1rem;
 
+  pointer-events: none;
+
   h2, p {
     color: black;
   }
@@ -11,21 +13,23 @@
   h2 {
     text-align: center;
     margin-top: 0;
+
+    pointer-events: all;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
   
   &__link {
     color: $fb-green;
     text-decoration: underline;
+    
+    pointer-events: all;
   }
 
   &:nth-child(2) {
     border-left: 1px solid $light-gray;
     border-right: 1px solid $light-gray;
-  }
-
-  &:hover {
-    h2 {
-      text-decoration: underline;
-    }
   }
 }

@@ -7,12 +7,13 @@ const QuickLink = ({
   title,
   text,
   link,
-  linkText 
+  docLink,
+  docLinkText 
 }) => (
     <a className="quick-link" href={link}>
       <h2>{title}</h2>
       <p>{text}</p>
-      {linkText && <a href={link} className="quick-link__link">{linkText}</a>}
+      {docLinkText && <a href={docLink.publicURL} className="quick-link__link">{docLinkText}</a>}
     </a>
 )
 
@@ -20,7 +21,8 @@ QuickLink.propTypes = {
   title: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
-  linkText: PropTypes.string
+  docLink: PropTypes.string,
+  docLinkText: PropTypes.string
 }
  
 export default QuickLink

@@ -26,13 +26,15 @@ export const IndexPageTemplate = ({
           title,
           text,
           link,
-          linkText
+          docLink,
+          docLinkText
         }) => (
         <QuickLink
           title={title}
           text={text}
           link={link}
-          linkText={linkText}
+          docLink={docLink}
+          docLinkText={docLinkText}
         />
       ))}
     </div>
@@ -89,7 +91,10 @@ export const pageQuery = graphql`
           title
           text
           link
-          linkText
+          docLink {
+            publicURL
+          }
+          docLinkText
         }
       }
     }
