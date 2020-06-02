@@ -8,13 +8,13 @@ import { withPrefix } from 'gatsby'
 
 import './Layout.scss'
 
-const TemplateWrapper = ({ children }) => {
+const TemplateWrapper = ({ pageTitle, children }) => {
   const { title, description, tags } = useSiteMetadata()
   return (
     <div>
       <Helmet>
         <html lang="en" />
-        <title>{title}</title>
+        <title>{pageTitle ? `${title} | ${pageTitle}` : `${title}`}</title>
         <meta name="description" content={description} />
         <meta name="tags" content={tags} />
 

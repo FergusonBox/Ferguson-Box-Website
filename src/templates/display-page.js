@@ -7,6 +7,7 @@ import Layout from '../components/Layout'
 import './display-page.scss'
 
 export const DisplayPageTemplate = ({
+  pageTitle,
   heading,
   html
 }) => (
@@ -21,6 +22,7 @@ export const DisplayPageTemplate = ({
 
 DisplayPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  pageTitle: PropTypes.string.isRequired,
   heading: PropTypes.string.isRequired,
 }
 
@@ -28,7 +30,7 @@ const DisplayPage = ({ data }) => {
   const { html, frontmatter } = data.markdownRemark
 
   return (
-    <Layout>
+    <Layout pageTitle={frontmatter.pageTitle}>
       <DisplayPageTemplate
         html={html}
         heading={frontmatter.heading}
@@ -53,6 +55,7 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id } ) {
       html
       frontmatter {
+        pageTitle
         heading
       }
     }

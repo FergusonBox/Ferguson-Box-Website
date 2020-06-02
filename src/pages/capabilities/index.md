@@ -1,5 +1,6 @@
 ---
 templateKey: display-page
+pageTitle: Capabilities
 heading: Capabilities
 ---
 

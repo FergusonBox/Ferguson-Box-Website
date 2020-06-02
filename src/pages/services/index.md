@@ -1,5 +1,6 @@
 ---
 templateKey: display-page
+pageTitle: Services
 heading: Services
 ---
 

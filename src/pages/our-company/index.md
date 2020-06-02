@@ -1,5 +1,6 @@
 ---
 templateKey: company-page
+pageTitle: "Our Company"
 heading: Our Company
 ---
 

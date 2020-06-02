@@ -8,6 +8,7 @@ import Layout from '../components/Layout'
 import './contact-page.scss'
 
 export const ContactPageTemplate = ({
+  pageTitle,
   heading,
   photo,
   phoneNum1,
@@ -43,6 +44,7 @@ export const ContactPageTemplate = ({
 
 ContactPageTemplate.propTypes = {
   photo: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  pageTitle: PropTypes.string.isRequired,
   heading: PropTypes.string.isRequired,
   phoneNum1: PropTypes.string.isRequired,
   phoneNum2: PropTypes.string,
@@ -59,7 +61,7 @@ const ContactPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
-    <Layout>
+    <Layout pageTitle={frontmatter.pageTitle}>
       <ContactPageTemplate
         heading={frontmatter.heading}
         photo={frontmatter.photo}
@@ -92,6 +94,7 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id } ) {
       frontmatter {
         heading
+        pageTitle
         photo {
           childImageSharp {
             fixed(width: 420, height: 280) {
