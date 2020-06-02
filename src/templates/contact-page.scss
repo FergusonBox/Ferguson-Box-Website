@@ -1,0 +1,50 @@
+@import '../variables.scss';
+
+.contact-page {
+  h1 {
+    text-transform: uppercase;
+  }
+
+  span {
+    color: $fb-gold;
+  }
+
+  a {
+    text-decoration: underline;
+    
+    color: $fb-green;
+  }
+
+  &__photo {
+    float: right;
+    margin-top: -4rem;
+  }
+
+  &__info {
+    border-left: 5px solid $fb-green;
+    padding: 0.5rem 0;
+    padding-left: 1rem;
+
+    margin: 2rem 0 ;
+  }
+
+  &__address {
+    text-align: center;
+
+    border-top: 1px solid $light-gray;
+    border-bottom: 1px solid $light-gray;
+
+    padding: 2rem 0;
+    margin: 1rem 0;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .google_maps {
+    display: block;
+
+    margin: auto;
+  }
+}
