@@ -16,8 +16,12 @@
   }
 
   &__photo {
-    float: right;
-    margin-top: -4rem;
+
+    @include tablet {
+      float: right;
+      margin-top: -3rem;
+      padding-left: 1rem;
+    }
   }
 
   &__info {
@@ -46,5 +50,7 @@
     display: block;
 
     margin: auto;
+
+    max-width: 100%;
   }
 }

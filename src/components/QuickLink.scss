@@ -1,10 +1,18 @@
 @import '../variables.scss';
 
 .quick-link {
-  width: 27.5%;
-  padding: 3rem 1rem;
+  padding: 2rem 0;
 
   pointer-events: none;
+
+  text-align: center;
+
+  @include tablet {
+    width: 27.5%;
+    padding: 3rem 1rem;
+
+    text-align: left;
+  }
 
   h2, p {
     color: black;
@@ -29,7 +37,15 @@
   }
 
   &:nth-child(2) {
-    border-left: 1px solid $light-gray;
-    border-right: 1px solid $light-gray;
+    border-top: 1px solid $light-gray;
+    border-bottom: 1px solid $light-gray;
+  }
+
+  @include tablet {
+    &:nth-child(2) {
+      border: none;
+      border-left: 1px solid $light-gray;
+      border-right: 1px solid $light-gray;
+    }
   }
 }
