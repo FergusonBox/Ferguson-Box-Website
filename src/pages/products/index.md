@@ -30,7 +30,7 @@ We keep a huge inventory of box sizes in stock at our facility. With more than 6
 
 What better way to be “green” than to offer once-used and repurposed corrugated inventory? Charlie Ferguson started this business through finding value in odd lot sizes for customers and we continue that smart tradition today.
 
-[Click here for current inventory](../../docs/odd_lots_current_web.pdf)
+[Click here for current inventory](../../docs/odd_lots_current_stock.pdf)
 
 ---
 
