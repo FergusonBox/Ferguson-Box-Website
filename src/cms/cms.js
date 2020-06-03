@@ -1,8 +1,11 @@
 import CMS from 'netlify-cms-app'
-import uploadcare from 'netlify-cms-media-library-uploadcare'
 
 import IndexPagePreview from './preview-templates/IndexPagePreview'
-
-CMS.registerMediaLibrary(uploadcare)
+import CompanyPagePreview from './preview-templates/CompanyPagePreview'
+import DisplayPagePreview from './preview-templates/DisplayPagePreview'
+import ContactPagePreview from './preview-templates/ContactPagePreview'
 
 CMS.registerPreviewTemplate('index', IndexPagePreview)
+CMS.registerPreviewTemplate('company', CompanyPagePreview)
+CMS.registerPreviewTemplate('display', DisplayPagePreview)
+CMS.registerPreviewTemplate('contact', ContactPagePreview)
