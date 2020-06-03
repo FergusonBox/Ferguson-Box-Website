@@ -1,5 +1,5 @@
 backend:
-  name: Ferguson-Box-Website
+  name: git-gateway
   branch: master
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
