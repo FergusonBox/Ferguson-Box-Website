@@ -20,7 +20,6 @@ export const DisplayPageTemplate = ({
 )
 
 DisplayPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   pageTitle: PropTypes.string.isRequired,
   heading: PropTypes.string.isRequired,
 }

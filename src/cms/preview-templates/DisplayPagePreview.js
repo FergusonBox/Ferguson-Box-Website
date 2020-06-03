@@ -1,22 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { IndexPageTemplate } from '../../templates/index-page'
+import { DisplayPageTemplate } from '../../templates/display-page'
 
-const IndexPagePreview = ({ entry, getAsset }) => {
+const DisplayPagePreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
   const {
     heading,
-    image,
-    quickLinks,
     html
   } = data;
 
   if (data) {
     return (
-      <IndexPageTemplate
+      <DisplayPageTemplate
         html={html}
-        image={image}
-        quickLinks={quickLinks}
         heading={heading}
       />
     )
@@ -25,11 +21,11 @@ const IndexPagePreview = ({ entry, getAsset }) => {
   }
 }
 
-IndexPagePreview.propTypes = {
+DisplayPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
 }
 
-export default IndexPagePreview
+export default DisplayPagePreview
