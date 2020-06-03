@@ -7,7 +7,6 @@ import Layout from '../components/Layout'
 import './company-page.scss'
 
 export const CompanyPageTemplate = ({
-  pageTitle,
   heading,
   html
 }) => (

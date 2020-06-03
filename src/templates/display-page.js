@@ -7,7 +7,6 @@ import Layout from '../components/Layout'
 import './display-page.scss'
 
 export const DisplayPageTemplate = ({
-  pageTitle,
   heading,
   html
 }) => (

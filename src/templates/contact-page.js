@@ -8,9 +8,8 @@ import Layout from '../components/Layout'
 import './contact-page.scss'
 
 export const ContactPageTemplate = ({
-  pageTitle,
   heading,
-  photo,
+  image,
   phoneNum1,
   phoneNum2,
   faxNum,
@@ -23,7 +22,7 @@ export const ContactPageTemplate = ({
 }) => (
   <div className="contact-page">
     <h1>{heading}</h1>
-    <Img fixed={photo.childImageSharp.fixed} alt="Ferguson Box building entrance" className="contact-page__photo"></Img>
+    <Img fixed={image.childImageSharp.fixed} alt="Ferguson Box building entrance" className="contact-page__photo"></Img>
     <div className="contact-page__info">
       <p>PHONE: <a href={"tel:" + phoneNum1.replace(/-|\./g,'')}>{phoneNum1}</a> <span>■</span> <a href={"tel:" + phoneNum2.replace(/-|\./g,'')}>{phoneNum2}</a> </p>
       <p>FAX: {faxNum}</p>
@@ -43,7 +42,7 @@ export const ContactPageTemplate = ({
 )
 
 ContactPageTemplate.propTypes = {
-  photo: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   pageTitle: PropTypes.string.isRequired,
   heading: PropTypes.string.isRequired,
   phoneNum1: PropTypes.string.isRequired,
@@ -64,7 +63,7 @@ const ContactPage = ({ data }) => {
     <Layout pageTitle={frontmatter.pageTitle}>
       <ContactPageTemplate
         heading={frontmatter.heading}
-        photo={frontmatter.photo}
+        image={frontmatter.image}
         phoneNum1={frontmatter.phoneNum1}
         phoneNum2={frontmatter.phoneNum2}
         faxNum={frontmatter.faxNum}
@@ -95,7 +94,7 @@ export const pageQuery = graphql`
       frontmatter {
         heading
         pageTitle
-        photo {
+        image {
           childImageSharp {
             fixed(width: 420, height: 280) {
               ...GatsbyImageSharpFixed
