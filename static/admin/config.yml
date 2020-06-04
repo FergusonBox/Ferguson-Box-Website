@@ -27,8 +27,8 @@ collections:
               {label: Title, name: title, widget: string}, 
               {label: Description, name: text, widget: text},
               {label: "Page Link", name: link, widget: string},
-              {label: "PDF Link Text", name: docLinkText, widget: string},
-              {label: "PDF Link", name: docLink, widget: string}
+              {label: "PDF Link Text", name: docLinkText, widget: string, required: false},
+              {label: "PDF Link", name: docLink, widget: string, required: false}
             ]}
       - file: "src/pages/our-company/index.md"
         label: "Our Company"
