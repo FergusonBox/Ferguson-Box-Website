@@ -15,7 +15,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
     return (
       <IndexPageTemplate
         html={html}
-        image={image}
+        image={getAsset(image)}
         quickLinks={quickLinks}
         heading={heading}
       />
