@@ -10,6 +10,8 @@ backend:
 
 media_folder: static/uploads
 public_folder: /uploads
+display_url: https://fergusonbox.com
+logo_url: src/img/ferguson_box_logo.png
 
 collections:
   - name: "pages"
