@@ -2,7 +2,7 @@
 templateKey: contact-page
 pageTitle: Contact
 heading: Contact Us
-image: ../../img/ferguson_box_front_entrance_bw.jpg
+image: ../../../static/uploads/ferguson_box_front_entrance_bw.jpg
 phoneNum1: "704.597.0310"
 phoneNum2: "800.821.1023"
 faxNum: "704.597.5623"
