@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 heading: Ferguson Supply & Box Manufacturing Company
-image: ../img/ferguson_box_pano.jpg
+image: /img/og-image.jpg
 quickLinks:
 - title: Custom Boxes
   text: Creative custom design solutions for any production packaging requirements.
