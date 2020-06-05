@@ -19,8 +19,15 @@
 
     @include tablet {
       float: right;
+
       margin-top: -3rem;
       padding-left: 1rem;
+
+      transform: scale(0.85);
+    }
+
+    @include desktop {
+      transform: scale(1);
     }
   }
 
