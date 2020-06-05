@@ -6,7 +6,11 @@ html {
   background-color: $background-white;
 
   font-family: $font-family;
-  font-size: 14pt;
+  font-size: 12pt;
+
+  @include tablet {
+    font-size: 14pt;
+  }
 }
 
 body {
@@ -44,11 +48,19 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 32pt;
+  font-size: 24pt;
+
+  @include tablet {
+    font-size: 32pt;
+  }
 }
 
 h3 {
-  font-size: 18pt;
+  font-size: 16pt;
+  
+  @include tablet {
+    font-size: 18pt;
+  }
 }
 
 hr {
