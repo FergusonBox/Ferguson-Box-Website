@@ -3,20 +3,21 @@ templateKey: display-page
 pageTitle: Products
 heading: Products
 ---
-
----
+- - -
 
 ### Custom Boxes
 
 Ferguson Box’s custom-manufactured corrugated product lines offer high-quality, economical solutions for Fortune 500 companies and small businesses alike. Corrugated solutions range from single- to triple-wall cardboard with a wide variety of flutes and board grades.
 
----
+![Custom carton designs](/uploads/custom_boxes.jpg "Custom carton designs")
+
+- - -
 
 ### Displays
 
 We can design and produce a variety of display solutions to assist in effectively marketing your product.
 
----
+- - -
 
 ### Stock Boxes
 
@@ -24,7 +25,9 @@ We keep a huge inventory of box sizes in stock at our facility. With more than 6
 
 [Click here for current stock boxes](../../docs/stock_boxes_web.pdf)
 
----
+![Stock boxes of different sizes](/uploads/stock_boxes.jpg "Stock boxes")
+
+- - -
 
 ### Odd Lots
 
@@ -32,7 +35,9 @@ What better way to be “green” than to offer once-used and repurposed corruga
 
 [Click here for current inventory](../../docs/odd_lots_current_stock.pdf)
 
----
+![Odd lot box labels](/uploads/odd_lots.jpg "Odd lot boxes")
+
+- - -
 
 ### Packaging Supplies
 
@@ -45,6 +50,8 @@ As a full-service packaging provider, we offer solutions for all packaging needs
 * Molded and fabricated foam (EPS, PE, PU ,etc.)
 * Pallets and crates
 * And more...
+
+![Assorted packaging supplies](/uploads/packaging_supplies.png "Packaging supplies")
 
 Call us for a packaging solution today!
 
