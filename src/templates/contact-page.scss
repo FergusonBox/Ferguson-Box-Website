@@ -16,6 +16,7 @@
   }
 
   &__photo {
+    width: 100% !important;
 
     @include tablet {
       float: right;
@@ -24,6 +25,8 @@
       padding-left: 1rem;
 
       transform: scale(0.85);
+
+      width: 420px !important;
     }
 
     @include desktop {
