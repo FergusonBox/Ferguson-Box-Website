@@ -28,6 +28,7 @@ Specific equipment & software includes:
 
 * State-of-the-art Apple computers utilizing Adobe Creative Cloud
 * Artios CAD 7.06
+
   * Artmaker - allows graphics to be added to structural files
   * Artios 3-D - creates 3-D renderings with graphics
 * SolidWorks CAD software
