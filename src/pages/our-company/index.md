@@ -7,11 +7,15 @@ heading: Our Company
 ---
 ### History<a id="history"></a>
 
+![Charlie Ferguson Portrait](uploads/charles_ferguson.jpg#align-right)
+
 Charles “Charlie” Ferguson followed his dream and founded Ferguson Box in his Charlotte garage in 1959 after working for a local recycled paper company. “One day in 1959,” he said, “I quit my job, went home and paid my rent and bought groceries. I had $35 left over, and with that I bought a load of once-used corrugated boxes. I stored them in the garage of the house we were renting on Barringer Drive.” With this $35, Ferguson set out to build a business based on service and hard work.
 
 After selling these second-hand boxes on feet for several months, Ferguson bought a used car, then an old truck. Soon he had warehouse space and a telephone line (that he shared with a neighboring lawnmower-repair shop), as well as his first employee. For the next 13 years, the company sold and delivered once-used boxes to an expanding base of customers.
 
 In 1972, he put everything on the line and opened our manufacturing facility on Graham Street in Charlotte. “If it hadn’t worked,” Ferguson said, “the banks could have taken everything, right down to my kids’ tricycles.” But it definitely worked. Now able to design and make custom boxes, business took off and Ferguson Supply and Box Manufacturing Company became a major regional force in the industry.
+
+![Charlie Ferguson's Boxing Gloves](uploads/charlie_boxing_gloves.jpg#align-left)
 
 That facility was later expanded in 1985, then a second building was bought to house the company’s Packaging Division in 1992. After being big in boxing inside the ring (Charlie was a professional boxer inducted into the Carolinas Boxing Hall of Fame in 1990), he was officially big in ‘boxing’ outside the ring as well.
 
@@ -27,10 +31,16 @@ Be every customer's supplier of choice by emphasizing a value-added partnership 
 - Providing a full range of packaging and point-of-sale solutions to manufacturing and distributions companies in the Southeast
 - Upholding the values of integrity, resourcefulness, and innovation with employees, customers, and our network of suppliers
 
+![Ferguson Box Facility Entrance](uploads/ferguson_box_front_entrance.jpg#align-center)
+
 ---
 
 ### Ferguson Box Team<a id="team"></a>
 
 Ferguson Box is a business built on the equity of long-term employees with an infusion of young talent and fresh skills. The company is led by Paige Ferguson Burgess and Chip Ferguson, children of founder Charles Ferguson. They strive to continue their father’s legacy of hiring and keeping the best people in the business to grow and sustain Ferguson Box.
+
+![Ferguson Box Office Staff](uploads/ferguson_box_office_staff.jpg#align-center)
+
+_<p align="center">Ferguson Box Office Staff</p>_
 
 We believe that Ferguson Box is successful because our talented staff carries out the philosophy that customers come first.
