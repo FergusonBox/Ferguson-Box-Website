@@ -16,38 +16,59 @@ boxNav:
 ---
 
 ---
+<a id="custom-boxes"></a>
 
-### Custom Boxes<a id="custom-boxes"></a>
+### Custom Boxes
 
 Ferguson Box’s custom-manufactured corrugated product lines offer high-quality, economical solutions for Fortune 500 companies and small businesses alike. Corrugated solutions range from single- to triple-wall cardboard with a wide variety of flutes and board grades.
 
----
+![Custom box designs for various customers](uploads/custom_boxes.jpg#align-center)
 
-### Displays<a id="displays"></a>
+---
+<a id="displays"></a>
+
+### Displays
 
 We can design and produce a variety of display solutions to assist in effectively marketing your product.
 
----
+![Dewalt tools, Stanley tools, Popz popcorn, and Texas Pete hot sauce corrugated displays](uploads/displays.png#align-center)
 
-### Stock Boxes<a id="stock-boxes"></a>
+---
+<a id="stock-boxes"></a>
+
+### Stock Boxes
 
 We keep a huge inventory of box sizes in stock at our facility. With more than 60 different sizes of corrugated cartons including self-locking and bin boxes, we’ve got what you need in-house, ready to be shipped or picked up at our plant. Our carton prices are extremely competitive with online retailers for all orders that satisfy our minimum order requirement.
 
 [Click here for current stock boxes](../../../static/uploads/stock_boxes_web.pdf)
 
----
+![Stock boxes of various sizes](uploads/stock_boxes.jpg#align-center)
 
-### Odd Lots<a id="odd-lots"></a>
+---
+<a id="odd-lots"></a>
+
+![Odd lots boxes](uploads/odd_lots.jpg#align-left)
+
+### Odd Lots
 
 What better way to be “green” than to offer once-used and repurposed corrugated inventory? Charlie Ferguson started this business through finding value in odd lot sizes for customers and we continue that smart tradition today.
 
 [Click here for current inventory](../../../static/uploads/odd_lots_current_stock.pdf)
 
----
+<br />
+<br />
+<br />
+<br />
+<br />
 
-### Packaging Supplies<a id="supplies"></a>
+---
+<a id="supplies"></a>
+
+### Packaging Supplies
 
 As a full-service packaging provider, we offer solutions for all packaging needs, drawing from a wide range of products including:
+
+![Packaging supplies including stretch film, mailers, bubble wrap, foam, and paper](uploads/packaging_supplies.png#align-right)
 
 * Chipboard
 * Bubble cushioning
