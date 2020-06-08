@@ -20,7 +20,6 @@ export const DisplayPageTemplate = ({
 )
 
 DisplayPageTemplate.propTypes = {
-  pageTitle: PropTypes.string.isRequired,
   heading: PropTypes.string.isRequired,
 }
 
@@ -28,7 +27,7 @@ const DisplayPage = ({ data }) => {
   const { html, frontmatter } = data.markdownRemark
 
   return (
-    <Layout pageTitle={frontmatter.pageTitle}>
+    <Layout pageTitle={frontmatter.pageTitle} boxNav={frontmatter.boxNav}>
       <DisplayPageTemplate
         html={html}
         heading={frontmatter.heading}
@@ -55,6 +54,10 @@ export const pageQuery = graphql`
       frontmatter {
         pageTitle
         heading
+        boxNav {
+          title
+          IDlink
+        }
       }
     }
   }

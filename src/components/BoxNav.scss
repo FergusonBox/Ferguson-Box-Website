@@ -1,0 +1,49 @@
+@import '../variables.scss';
+
+.box-nav {
+  display: none;
+
+  @include tablet {
+    display: block;
+
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+
+    background: $fb-gold;
+
+    text-align: center;
+
+    padding: 0 0 0.5rem 0;
+
+    &__element {
+      padding: 0 0.5rem;
+
+      display: inline-block;
+
+      color: black;
+      font-size: 12pt;
+
+      @include desktop {
+        padding: 0 1.5rem;
+      }
+    }
+
+    &__box {
+      display: block;
+
+      margin: auto;
+
+      width: 100px;
+      height: 100px;
+
+      background: url('../../src/img/box_closed.png') no-repeat bottom;
+      background-size: contain;
+
+      transition: background-image $transition-time $transition-timing;
+
+      &:hover {
+        background-image: url('../../src/img/box_open.png');
+      }
+    }
+  }
+}
