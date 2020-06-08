@@ -1,0 +1,70 @@
+@import 'variables.scss';
+
+html {
+  height: 100%;
+
+  background-color: $background-white;
+
+  font-family: $font-family;
+  font-size: 12pt;
+
+  @include tablet {
+    font-size: 14pt;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 24pt;
+  margin-top: 0;
+
+  @include tablet {
+    font-size: 32pt;
+  }
+}
+
+h3 {
+  font-size: 16pt;
+  
+  @include tablet {
+    font-size: 18pt;
+  }
+}
+
+hr {
+  height: 1px;
+  background-color: $light-gray;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+
+  transition: none $transition-time $transition-timing;
+  transition-property: color;
+}
+
+img[src*="#align-right"] {
+  float: right;
+  padding: 0.25rem 0.5rem;
+}
+
+img[src*="#align-left"] {
+  float: left;
+  padding: 0.25rem 0.5rem;
+}
+
+img[src*="#align-center"] {
+  display: block;
+  margin: auto;
+}

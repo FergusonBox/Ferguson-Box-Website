@@ -6,6 +6,7 @@ import Img from 'gatsby-image'
 import Layout from '../components/Layout'
 import QuickLink from '../components/QuickLink'
 
+import '../global.scss'
 import './index-page.scss'
 
 export const IndexPageTemplate = ({

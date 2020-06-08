@@ -5,6 +5,7 @@ import Img from 'gatsby-image'
 
 import Layout from '../components/Layout'
 
+import '../global.scss'
 import './contact-page.scss'
 
 export const ContactPageTemplate = ({

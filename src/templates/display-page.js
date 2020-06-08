@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 
+import '../global.scss'
 import './display-page.scss'
 
 export const DisplayPageTemplate = ({
