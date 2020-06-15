@@ -17,7 +17,9 @@ const ScrollToTopButton = () => {
     window.scrollTo({top: 0, behavior: 'smooth'});
   };
 
-  window.addEventListener('scroll', checkScrollTop)
+  if (typeof window !== `undefined`) {
+    window.addEventListener('scroll', checkScrollTop)
+  }
 
   return (
     <div className="scroll-to-top" onClick={scrollTop} style={{visibility: showScroll ? 'visible' : 'hidden', opacity: showScroll ? '1' : '0'}}>
