@@ -28,8 +28,7 @@ const Navbar = class extends React.Component {
 
   handleScroll = () => {
     const { top } = document.body.getBoundingClientRect();
-    console.log(top);
-    (top * -1 > activeFromPx) ? this.setState({ scrolling: true }) : this.setState({ scrolling: false });
+    (-1 * top > activeFromPx) ? this.setState({ scrolling: true }) : this.setState({ scrolling: false });
   }
 
   render() {

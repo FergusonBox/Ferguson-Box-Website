@@ -1,0 +1,50 @@
+@import '../variables.scss';
+
+.scroll-to-top {
+  position: fixed; 
+  bottom: 2rem;
+  right: 0;
+  
+  width: 3rem;
+  height: 1.2em;
+
+  overflow: hidden;
+
+  padding: 0.25rem;
+  
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+  transition: none $transition-time $transition-timing;
+  transition-property: background-color, opacity;
+
+  z-index: 99;
+  cursor: pointer;
+
+  background-color: $fb-green;
+  
+  font-size: 18pt;
+
+  border-left: 4px solid $fb-gold;
+  
+  & span {
+    color: #fff
+  }
+
+  @include tablet {
+    bottom: 1rem;
+    right: 1rem;
+
+    width: 4rem;
+    height: 4rem;
+
+    font-size: 14pt;
+
+    border: none;
+  }
+}
+
+.scroll-to-top:hover{
+  background-color: $fb-light-green;
+}

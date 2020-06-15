@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
+import ScrollToTopButton from '../components/ScrollToTopButton'
 
 import '../global.scss'
 import './display-page.scss'
@@ -17,6 +18,7 @@ export const DisplayPageTemplate = ({
       className="display-page__content" 
       dangerouslySetInnerHTML={{ __html: html }}>
     </div>
+    <ScrollToTopButton />
   </div>
 )
 
