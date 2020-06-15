@@ -5,13 +5,31 @@ import HamburgerMenu from 'react-hamburger-menu'
 
 import './Navbar.scss'
 
+const activeFromPx = 115;
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
 
     this.state = {
-      active: false
+      active: false,
+      scrolling: false
     }
+  }
+  
+  componentDidMount = () => {
+    window.addEventListener('scroll', this.handleScroll);
+    this.handleScroll();
+  };
+
+  componentWillUnmount = () => {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll = () => {
+    const { top } = document.body.getBoundingClientRect();
+    console.log(top);
+    (top * -1 > activeFromPx) ? this.setState({ scrolling: true }) : this.setState({ scrolling: false });
   }
 
   render() {
@@ -28,7 +46,7 @@ const Navbar = class extends React.Component {
             animationDuration={0.2}
           />
         </div>
-        <div className="navbar__nav">
+        <div className={`navbar__nav ${this.state.scrolling && 'scrolling'}`}>
           <div className="navbar__brand">
             <Link to="/" className="navbar__item" title="Logo">
               <img src={logo} alt="Ferguson Box" style={{ width: '128px' }} />

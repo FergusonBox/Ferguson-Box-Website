@@ -35,6 +35,11 @@
       align-items: center;
 
       font-size: 11pt;
+
+      &.scrolling {
+        position: fixed;
+        top: 0;
+      }
     }
     @include desktop {
       font-size: 12pt;
