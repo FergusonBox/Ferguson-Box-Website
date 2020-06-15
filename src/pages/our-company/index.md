@@ -11,8 +11,6 @@ heading: Our Company
 
 Charles “Charlie” Ferguson followed his dream and founded Ferguson Box in his Charlotte garage in 1959 after working for a local recycled paper company. “One day in 1959,” he said, “I quit my job, went home and paid my rent and bought groceries. I had $35 left over, and with that I bought a load of once-used corrugated boxes. I stored them in the garage of the house we were renting on Barringer Drive.” With this $35, Ferguson set out to build a business based on service and hard work.
 
-![Charlie Ferguson portrait](/uploads/charles_ferguson.jpg "Charlie Ferguson")
-
 After selling these second-hand boxes on feet for several months, Ferguson bought a used car, then an old truck. Soon he had warehouse space and a telephone line (that he shared with a neighboring lawnmower-repair shop), as well as his first employee. For the next 13 years, the company sold and delivered once-used boxes to an expanding base of customers.
 
 In 1972, he put everything on the line and opened our manufacturing facility on Graham Street in Charlotte. “If it hadn’t worked,” Ferguson said, “the banks could have taken everything, right down to my kids’ tricycles.” But it definitely worked. Now able to design and make custom boxes, business took off and Ferguson Supply and Box Manufacturing Company became a major regional force in the industry.

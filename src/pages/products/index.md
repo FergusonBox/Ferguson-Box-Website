@@ -78,8 +78,6 @@ As a full-service packaging provider, we offer solutions for all packaging needs
 * Pallets and crates
 * And more...
 
-![Assorted packaging supplies](/uploads/packaging_supplies.png "Packaging supplies")
-
 Call us for a packaging solution today!
 
 [Click here](../../../static/uploads/packaging_supplies_list.pdf) for a list of some of the packaging supplies we offer.
