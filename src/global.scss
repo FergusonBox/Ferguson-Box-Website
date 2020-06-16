@@ -26,10 +26,11 @@ h1, h2, h3 {
 
 h1 {
   font-size: 24pt;
-  margin-top: 0;
+  margin: 0;
 
   @include tablet {
     font-size: 32pt;
+    margin-top: 0;
   }
 }
 
