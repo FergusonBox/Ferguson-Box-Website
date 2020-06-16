@@ -5,6 +5,7 @@
   margin-top: calc(#{$header-height} / 2 + 1rem);
 
   background-color: $highlight-white;
+  box-shadow: $box-shadow;
 
   > div {
     padding: 1rem;

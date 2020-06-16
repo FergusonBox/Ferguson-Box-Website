@@ -4,20 +4,23 @@
   max-width: 1100px;
   height: $footer-height;
 
-  padding: 1rem 0;
+  padding: 1rem 0 2rem 0;
   margin: auto;
   margin-top: 1rem;
 
   background-color: $fb-green;
   color: white;
+  box-shadow: $box-shadow;
 
   text-align: center;
 
+  font-size: 10pt;
+
   @include tablet {
+    padding: 1rem 0;
+
     font-size: 12pt;
   }
-  
-  font-size: 10pt;
 
   &__certifications {
     &__item { 

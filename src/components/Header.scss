@@ -12,6 +12,8 @@
     background: $highlight-white url('../../static/img/square_design.png') no-repeat -2rem;
     background-size: contain;
 
+    z-index: 9;
+
     &__certifications {
       position: absolute;
       right: 0;
