@@ -87,10 +87,9 @@
   }
 
   &__hamburgerMenu {
-    margin: 0.5rem;
-    padding: 0.6rem 0.5rem;
+    padding: 1rem 1rem;
 
-    width: 26px;
+    width: fit-content;
 
     cursor: pointer;
 
@@ -106,14 +105,16 @@
 
   &__brand {
     margin: auto;
-    margin-top: -2.25rem;
+    margin-top: -42px;
 
-    transform: scale(1.5);
+    transform: scale(1.2);
 
     z-index: -2;
 
     .navbar__item {
-      padding: 0.5rem 1rem;
+      padding: 0 1rem;
+
+      display: flex;
     }
 
     @include tablet {
