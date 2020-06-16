@@ -38,14 +38,14 @@ Be every customer's supplier of choice by emphasizing a value-added partnership 
 ### Ferguson Box Team<a id="team"></a>
 | | 
 |:-----:|
-|![Ferguson Box Facility Entrance](uploads/ferguson_box_front_entrance.jpg)|
+|![Ferguson Box Facility Entrance](uploads/paige_ferguson.jpg)|
 |Paige Ferguson Burgess|
 |_President_|
 |<a href="mailto:pburgess@fergusonbox.com">pburgess@fergusonbox.com</a>|
 
 ||
 |:-----:|
-|![Ferguson Box Facility Entrance](uploads/ferguson_box_front_entrance.jpg)|
+|![Ferguson Box Facility Entrance](uploads/chip_ferguson.jpg)|
 |Chip Ferguson|
 |_Vice-President_|
 |<a href="mailto:cferguson@fergusonbox.com">cferguson@fergusonbox.com</a>|
