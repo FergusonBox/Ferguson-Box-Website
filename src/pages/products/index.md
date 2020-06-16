@@ -47,19 +47,11 @@ We keep a huge inventory of box sizes in stock at our facility. With more than 6
 ---
 <a id="odd-lots"></a>
 
-![Odd lots boxes](uploads/odd_lots.jpg#align-left)
-
 ### Odd Lots
 
 What better way to be “green” than to offer once-used and repurposed corrugated inventory? Charlie Ferguson started this business through finding value in odd lot sizes for customers and we continue that smart tradition today.
 
 [Click here for current inventory](../../../static/uploads/odd_lots_current_stock.pdf)
-
-<br />
-<br />
-<br />
-<br />
-<br />
 
 ---
 <a id="supplies"></a>
