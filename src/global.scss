@@ -58,16 +58,22 @@ img[src*="#align-right"] {
   float: right;
   padding: 0.25rem 0.5rem;
 
-  max-width: 540px;
-  max-width: 100%;
+  max-width: 50%;
+
+  @include tablet {
+    max-width: 540px;
+  }
 }
 
 img[src*="#align-left"] {
   float: left;
   padding: 0.25rem 0.5rem;
 
-  max-width: 540px;
-  max-width: 100%;
+  max-width: 50%;
+
+  @include tablet {
+    max-width: 540px;
+  }
 }
 
 img[src*="#align-center"] {
@@ -78,4 +84,38 @@ img[src*="#align-center"] {
   height: auto;
 
   max-width: 540px;
+}
+
+a {
+  color: $fb-green;
+}
+
+table {
+  width: 50%;
+  width: intrinsic;
+  width: fit-content;
+  display: block;
+  margin: auto;
+
+  @include tablet {
+    display: inline-flex;
+    display: -ms-inline-flexbox;
+
+    width: calc(50% - 1rem);
+
+    tbody, thead {
+      margin: auto;
+    }
+  }
+
+  td {
+    @include tablet {
+      padding: 0 0.5rem;
+    }
+  }
+
+  img {
+    width: 50%;
+    max-width: 15rem;
+  }
 }
