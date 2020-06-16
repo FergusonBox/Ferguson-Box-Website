@@ -4,6 +4,10 @@
   background: #fff url('/img/front_entrance_bkg.jpg') no-repeat center bottom;
   background-size: 50rem;
 
+  h1 {
+    margin-bottom: 1rem;
+  }
+
   &__quick-links {
     display: flex;
     flex-direction: column;
