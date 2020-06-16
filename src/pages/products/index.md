@@ -40,7 +40,7 @@ We can design and produce a variety of display solutions to assist in effectivel
 
 We keep a huge inventory of box sizes in stock at our facility. With more than 60 different sizes of corrugated cartons including self-locking and bin boxes, we’ve got what you need in-house, ready to be shipped or picked up at our plant. Our carton prices are extremely competitive with online retailers for all orders that satisfy our minimum order requirement.
 
-[Click here for current stock boxes](../../../static/uploads/stock_boxes_web.pdf)
+[Click here for current stock boxes](uploads/stock_boxes_web.pdf)
 
 ![Stock boxes of various sizes](uploads/stock_boxes.jpg#align-center)
 
@@ -51,7 +51,7 @@ We keep a huge inventory of box sizes in stock at our facility. With more than 6
 
 What better way to be “green” than to offer once-used and repurposed corrugated inventory? Charlie Ferguson started this business through finding value in odd lot sizes for customers and we continue that smart tradition today.
 
-[Click here for current inventory](../../../static/uploads/odd_lots_current_stock.pdf)
+[Click here for current inventory](uploads/odd_lots_current_stock.pdf)
 
 ---
 <a id="supplies"></a>
@@ -72,6 +72,6 @@ As a full-service packaging provider, we offer solutions for all packaging needs
 
 Call us for a packaging solution today!
 
-[Click here](../../../static/uploads/packaging_supplies_list.pdf) for a list of some of the packaging supplies we offer.
+[Click here](uploads/packaging_supplies_list.pdf) for a list of some of the packaging supplies we offer.
 
 Ferguson Box also offers complete moving box kits to the public as well as businesses in the region. Cost effective odd lots and once-used boxes are assembled for a one-stop solution for your next personal or commercial move.
