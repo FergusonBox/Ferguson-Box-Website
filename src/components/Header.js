@@ -14,7 +14,7 @@ const Header = () => {
       logo: file(relativePath: { eq: "ferguson_box_logo.png" }) {
         childImageSharp {
           fixed(width: 180, height: 112) {
-            ...GatsbyImageSharpFixed
+            ...GatsbyImageSharpFixed_tracedSVG
           }
         }
       }
