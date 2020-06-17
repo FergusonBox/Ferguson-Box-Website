@@ -37,6 +37,8 @@ Specific equipment & software includes:
 
 ![Fujifilm Acuity HD 2504 plotter and color books](uploads/fujifilm_plotter_color.png#align-center)
 
+![SolidWorks software video demo](uploads/solidworks_demo.gif#align-center)
+
 ---
 <a id="graphic-die-cutter"></a> 
 
@@ -53,6 +55,8 @@ High-end direct flexographic print capabilities in up to a 4-color process with 
 
 We produce simple and complex jumbo, midsize, and small cartons as well as a variety of die-cut packaging items. They can be glued in-line or are converted on our flexo folder gluers.
 
+![Flexo folder gluer machine video](uploads/flexo_folder_gluer.gif#align-center)
+
 ![Flexo folder gluer machine in warehouse facility](uploads/flexo_folder_gluer.jpg#align-center)
 
 ![Jumbo flexo machine in warehouse facility](uploads/jumbo_flexo.jpg#align-center)
@@ -65,6 +69,8 @@ We produce simple and complex jumbo, midsize, and small cartons as well as a var
 ![BOBST ExpertFold 230 folder-gluer](uploads/bobst_expertfold.png#align-center)
 
 Our cutting-edge BOBST ExpertFold 230 specialty folder-gluer allows both short and long runs of a variety of corrugated packaging solutions including auto-lock bottom and 4-corner boxes. As our most recent investment, this machine represents our continual commitment to production and quality.
+
+![BOBST ExpertFold 230 folder-gluer video](uploads/bobst.gif#align-center)
 
 ---
 <a id="platen-die-cutter"></a> 
