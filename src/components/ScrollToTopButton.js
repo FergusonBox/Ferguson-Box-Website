@@ -22,9 +22,9 @@ const ScrollToTopButton = () => {
   }
 
   return (
-    <div className="scroll-to-top" onClick={scrollTop} style={{visibility: showScroll ? 'visible' : 'hidden', opacity: showScroll ? '1' : '0'}}>
+    <button className="scroll-to-top" onClick={scrollTop} onKeyDown={scrollTop} style={{visibility: showScroll ? 'visible' : 'hidden', opacity: showScroll ? '1' : '0'}}>
       <span>⇧<br/><span className="scroll-to-top__text">BACK TO TOP</span></span>
-    </div>
+    </button>
   )
 }
 
