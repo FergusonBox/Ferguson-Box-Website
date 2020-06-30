@@ -12,8 +12,7 @@ quickLinks:
     docLink: ../../static/uploads/stock_boxes_web.pdf
     docLinkText: Click here for available sizes
   - title: Over-Run Boxes
-    text: Ferguson Box offers the largest inventory of odd-lot and over-run boxes in
-      the southeast at closeout pricing.
+    text: Ferguson Box offers the largest inventory of odd-lot and over-run boxes in the southeast at closeout pricing.
     link: /products/#odd_lots
     docLink: ../../static/uploads/odd_lots_current_stock.pdf
     docLinkText: Click here for current inventory
