@@ -10,11 +10,13 @@ const QuickLink = ({
   docLink,
   docLinkText 
 }) => (
+  <>
     <a className="quick-link" href={link}>
       <h2>{title}</h2>
       <p>{text}</p>
       {docLinkText && <a href={docLink.publicURL} className="quick-link__link">{docLinkText}</a>}
     </a>
+  </>
 )
 
 QuickLink.propTypes = {
