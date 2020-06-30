@@ -26,6 +26,10 @@
   border-left: 4px solid $fb-gold;
 
   box-shadow: $box-shadow;
+
+  &:focus {
+    outline: none;
+  }
   
   & span {
     color: #fff

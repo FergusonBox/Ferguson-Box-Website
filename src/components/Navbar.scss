@@ -120,6 +120,26 @@
     @include tablet { display: none; }
   }
 
+  &__item {
+    height: 2rem;
+
+    padding: 1rem;
+
+    color: white;
+
+    transition: background-color $transition-time $transition-timing;
+
+    &:hover {
+      background-color: $fb-light-green;
+    }
+
+    @include tablet {
+      padding: 0.5rem 1rem;
+
+      height: auto;
+    }
+  }
+
   &__brand {
     margin: auto;
     margin-top: -42px;
@@ -140,22 +160,6 @@
       z-index: 1;
 
       transform: scale(1);
-    }
-  }
-
-  &__item {
-    padding: 1rem;
-
-    color: white;
-
-    transition: background-color $transition-time $transition-timing;
-
-    &:hover {
-      background-color: $fb-light-green;
-    }
-
-    @include tablet {
-      padding: 0.5rem 1rem;
     }
   }
 
