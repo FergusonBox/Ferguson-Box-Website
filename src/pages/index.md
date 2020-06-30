@@ -16,6 +16,8 @@ quickLinks:
     link: products/#odd_lots
     docLink: ../../static/uploads/odd_lots_current_stock.pdf
     docLinkText: Click here for current inventory
+  - title: Test
+    text: Testing
 ---
 Ferguson Box has combined 50 years of values and tradition with a commitment to packaging done right.
 
