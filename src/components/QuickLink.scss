@@ -3,8 +3,6 @@
 .quick-link {
   padding: 2rem 0;
 
-  pointer-events: none;
-
   text-align: center;
 
   @include tablet {
@@ -19,21 +17,15 @@
   }
 
   h2 {
+    font-size: 1.5em;
+    
     text-align: center;
     margin-top: 0;
-
-    pointer-events: all;
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
   
   &__link {
     color: $fb-green;
     text-decoration: underline;
-    
-    pointer-events: all;
   }
 
   &:nth-child(2) {
