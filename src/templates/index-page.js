@@ -26,14 +26,12 @@ export const IndexPageTemplate = ({
       {quickLinks && quickLinks.map(({
           title,
           text,
-          link,
           docLink,
           docLinkText
         }) => (
         <QuickLink
           title={title}
           text={text}
-          link={link}
           docLink={docLink}
           docLinkText={docLinkText}
         />
@@ -91,7 +89,6 @@ export const pageQuery = graphql`
         quickLinks {
           title
           text
-          link
           docLink {
             publicURL
           }
