@@ -16,6 +16,9 @@ logo_url: src/img/ferguson_box_logo.png
 collections:
   - name: "pages"
     label: "Pages"
+    delete: false
+    editor:
+          preview: false
     files:
       - file: "src/pages/index.md"
         label: "Landing Page"
@@ -67,6 +70,8 @@ collections:
       - file: "src/pages/contact/index.md"
         label: "Contact Us"
         name: "contact"
+        editor:
+          preview: false
         fields:
           - {label: "Template Key", name: templateKey, widget: hidden, default: "contact-page"}
           - {label: "Page Title", name: pageTitle, widget: hidden, default: "Contact"}
