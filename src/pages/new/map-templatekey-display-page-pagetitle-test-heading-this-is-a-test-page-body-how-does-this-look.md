@@ -1,6 +1,6 @@
 ---
 templateKey: display-page
-pageTitle: Test
+pageTitle: test
 heading: This is a test page
 ---
 How does this look?
