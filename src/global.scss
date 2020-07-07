@@ -135,6 +135,8 @@ table {
   }
 
   td {
+    text-align: center;
+    
     @include tablet {
       padding: 0 0.5rem;
     }
