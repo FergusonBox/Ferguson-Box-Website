@@ -121,7 +121,7 @@
   }
 
   &__item {
-    height: 2rem;
+    height: auto;
 
     padding: 1rem;
 
@@ -136,20 +136,22 @@
     @include tablet {
       padding: 0.5rem 1rem;
 
-      height: auto;
+      height: 2rem;
     }
   }
 
   &__brand {
     margin: auto;
-    margin-top: -42px;
+    margin-top: -2.75rem;
 
-    transform: scale(1.2);
+    transform: scale(1.25);
 
     z-index: -2;
 
     .navbar__item {
       padding: 0 1rem;
+
+      height: 2.45rem;
 
       display: flex;
     }
@@ -160,6 +162,10 @@
       z-index: 1;
 
       transform: scale(1);
+
+      .navbar__item {
+        height: 2rem;
+      }
     }
   }
 
