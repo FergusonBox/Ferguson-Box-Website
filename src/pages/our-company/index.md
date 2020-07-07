@@ -5,7 +5,7 @@ heading: Our Company
 ---
 - - -
 
-### History<a id="history"></a>
+### History
 
 ![Charlie Ferguson Portrait](uploads/charles_ferguson.jpg#align-right)
 
@@ -23,7 +23,7 @@ In our new consolidated facility, Ferguson Box operates a privately owned fleet 
 
 - - -
 
-### Mission Statement<a id="mission"></a>
+### Mission Statement
 
 Be every customer's supplier of choice by emphasizing a value-added partnership method of conducting business by:
 
@@ -31,11 +31,11 @@ Be every customer's supplier of choice by emphasizing a value-added partnership 
 * Providing a full range of packaging and point-of-sale solutions to manufacturing and distributions companies in the Southeast
 * Upholding the values of integrity, resourcefulness, and innovation with employees, customers, and our network of suppliers
 
-![Ferguson Box Facility Entrance](uploads/ferguson_box_front_entrance.jpg#align-center)
+![Ferguson Box Facility Entrance](uploads/ferguson_box_front_entrance.jpg)
 
 - - -
 
-### Ferguson Box Team<a id="team"></a>
+### Ferguson Box Team
 
 |                                                                        |
 | ---------------------------------------------------------------------- |
