@@ -2,9 +2,9 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-import ISOCert from '../img/iso_cert_badge.png'
-import SFICert from '../img/sfi_cert_badge.png'
-import WBENCCert from '../img/wbenc_cert_badge.png'
+import ISOCert from '../../static/uploads/iso_cert_badge.png'
+import SFICert from '../../static/uploads/sfi_cert_badge.png'
+import WBENCCert from '../../static/uploads/wbenc_cert_badge.png'
 
 import './Header.scss'
 
@@ -18,13 +18,13 @@ const Header = () => {
           }
         }
       }
-      ISOCert: file(relativePath: { eq: "iso_certificate.pdf" }) {
+      ISOCertDoc: file(relativePath: { eq: "iso_certificate.pdf" }) {
         publicURL
       }
-      SFICert: file(relativePath: { eq: "sfi_certificate.pdf" }) {
+      SFICertDoc: file(relativePath: { eq: "sfi_certificate.pdf" }) {
         publicURL
       }
-      WBENCCert: file(relativePath: { eq: "wbenc_certificate.pdf" }) {
+      WBENCCertDoc: file(relativePath: { eq: "wbenc_certificate.pdf" }) {
         publicURL
       }
     }
@@ -35,13 +35,13 @@ const Header = () => {
         <Img fixed={data.logo.childImageSharp.fixed} alt="Ferguson Box logo" />
       </a>
       <div className="header__certifications">
-        <a className="header__certifications__item" href={data.ISOCert.publicURL} target="_blank" rel="noreferrer">
+        <a className="header__certifications__item" href={data.ISOCertDoc.publicURL} target="_blank" rel="noreferrer">
           <img src={ISOCert} alt="ISO 9001 Certified"></img>
         </a>
-        <a className="header__certifications__item" href={data.SFICert.publicURL} target="_blank" rel="noreferrer">
+        <a className="header__certifications__item" href={data.SFICertDoc.publicURL} target="_blank" rel="noreferrer">
           <img src={SFICert} alt="SFI Certified"></img>
         </a>
-        <a className="header__certifications__item" href={data.WBENCCert.publicURL} target="_blank" rel="noreferrer">
+        <a className="header__certifications__item" href={data.WBENCCertDoc.publicURL} target="_blank" rel="noreferrer">
           <img src={WBENCCert} alt="Certified WBENC"></img>
         </a>
       </div>
