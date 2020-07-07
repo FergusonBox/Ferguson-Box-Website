@@ -3,8 +3,8 @@ templateKey: company-page
 pageTitle: Our Company
 heading: Our Company
 ---
+- - -
 
----
 ### History<a id="history"></a>
 
 ![Charlie Ferguson Portrait](uploads/charles_ferguson.jpg#align-right)
@@ -15,7 +15,7 @@ After selling these second-hand boxes on feet for several months, Ferguson bough
 
 In 1972, he put everything on the line and opened our manufacturing facility on Graham Street in Charlotte. “If it hadn’t worked,” Ferguson said, “the banks could have taken everything, right down to my kids’ tricycles.” But it definitely worked. Now able to design and make custom boxes, business took off and Ferguson Supply and Box Manufacturing Company became a major regional force in the industry.
 
-![Charlie Ferguson's Boxing Gloves](uploads/charlie_boxing_gloves.jpg#align-left)
+![Charlie Ferguson's Boxing Gloves](uploads/charlie_boxing_gloves.jpg#align-left "Charlie Ferguson's Boxing Gloves")
 
 That facility was later expanded in 1985, then a second building was bought to house the company’s Packaging Division in 1992. After being big in boxing inside the ring (Charlie was a professional boxer inducted into the Carolinas Boxing Hall of Fame in 1990), he was officially big in ‘boxing’ outside the ring as well.
 
@@ -33,27 +33,28 @@ Be every customer's supplier of choice by emphasizing a value-added partnership 
 
 ![Ferguson Box Facility Entrance](uploads/ferguson_box_front_entrance.jpg#align-center)
 
----
+- - -
 
 ### Ferguson Box Team<a id="team"></a>
-| | 
-|:-----:|
-|![Ferguson Box Facility Entrance](uploads/paige_ferguson.jpg)|
-|Paige Ferguson Burgess|
-|_President_|
-|<a href="mailto:pburgess@fergusonbox.com">pburgess@fergusonbox.com</a>|
 
-||
-|:-----:|
-|![Ferguson Box Facility Entrance](uploads/chip_ferguson.jpg)|
-|Chip Ferguson|
-|_Vice-President_|
-|<a href="mailto:cferguson@fergusonbox.com">cferguson@fergusonbox.com</a>|
+|                                                                        |
+| ---------------------------------------------------------------------- |
+| ![Ferguson Box Facility Entrance](uploads/paige_ferguson.jpg)          |
+| Paige Ferguson Burgess                                                 |
+| *President*                                                            |
+| <a href="mailto:pburgess@fergusonbox.com">pburgess@fergusonbox.com</a> |
+
+|                                                                          |
+| ------------------------------------------------------------------------ |
+| ![Ferguson Box Facility Entrance](uploads/chip_ferguson.jpg)             |
+| Chip Ferguson                                                            |
+| *Vice-President*                                                         |
+| <a href="mailto:cferguson@fergusonbox.com">cferguson@fergusonbox.com</a> |
 
 Ferguson Box is a business built on the equity of long-term employees with an infusion of young talent and fresh skills. The company is led by Paige Ferguson Burgess and Chip Ferguson, children of founder Charles Ferguson. They strive to continue their father’s legacy of hiring and keeping the best people in the business to grow and sustain Ferguson Box.
 
 ![Ferguson Box Office Staff](uploads/ferguson_box_office_staff.jpg#align-center)
 
-_<p align="center">Ferguson Box Office Staff</p>_
+*<p align="center">Ferguson Box Office Staff</p>*
 
 We believe that Ferguson Box is successful because our talented staff carries out the philosophy that customers come first.
