@@ -78,6 +78,30 @@ img[src*="#align-left"] {
   }
 }
 
+.display-page__content p > img[src$=".jpg"],
+.display-page__content p > img[src$=".gif"],
+.display-page__content p > img[src$=".png"] {
+  display: block;
+  margin: auto;
+
+  width: 100%;
+  height: auto;
+
+  max-width: 540px;
+}
+
+.company-page__content p > img[src$=".jpg"],
+.company-page__content p > img[src$=".gif"],
+.company-page__content p > img[src$=".png"] {
+  display: block;
+  margin: auto;
+
+  width: 100%;
+  height: auto;
+
+  max-width: 540px;
+}
+
 img[src*="#align-center"] {
   display: block;
   margin: auto;
