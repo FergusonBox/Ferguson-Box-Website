@@ -26,13 +26,13 @@ Over time, Ferguson Box has made a point to keep current with packaging technolo
 
 Specific equipment & software includes:
 
-* State-of-the-art Apple computers utilizing Adobe Creative Cloud
-* Artios CAD 7.06
+* Adobe Creative Cloud
+* Artios CAD 18.0.1
 
-  * Artmaker - allows graphics to be added to structural files
-  * Artios 3-D - creates 3-D renderings with graphics
+  * Artios 3-D - creates 3-D renderings of structure files
+  * Studio Toolkit- allows graphics to be added to 3-D renderings
 * SolidWorks CAD software
-* Kongsberg XL 44 CAD Table
+* Kongsberg XL-44 CAD Table
 * Fujifilm Acuity HD 2504 flatbed inkjet printer for prototype mockups
 
 ![Fujifilm Acuity HD 2504 plotter and color books](/uploads/fujifilm_plotter_color.png)
