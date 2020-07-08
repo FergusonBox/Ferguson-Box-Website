@@ -39,14 +39,14 @@ Be every customer's supplier of choice by emphasizing a value-added partnership 
 
 |                                                                        |
 | ---------------------------------------------------------------------- |
-| ![Ferguson Box Facility Entrance](uploads/paige_ferguson.jpg)          |
+| ![Paige Ferguson Burgess](uploads/paige_ferguson.jpg)           |                                             
 | Paige Ferguson Burgess                                                 |
 | *President*                                                            |
 | <a href="mailto:pburgess@fergusonbox.com">pburgess@fergusonbox.com</a> |
 
 |                                                                          |
 | ------------------------------------------------------------------------ |
-| ![Ferguson Box Facility Entrance](uploads/chip_ferguson.jpg)             |
+| ![Chip Ferguson](uploads/chip_ferguson.jpg)             |
 | Chip Ferguson                                                            |
 | *Vice-President*                                                         |
 | <a href="mailto:cferguson@fergusonbox.com">cferguson@fergusonbox.com</a> |
