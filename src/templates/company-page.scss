@@ -24,4 +24,11 @@
     color: $fb-green;
   }
 
+  &__leadership {
+    display: flex;
+    justify-content: center;
+
+    flex-flow: row wrap;
+  }
+
 }

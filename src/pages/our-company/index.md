@@ -2,6 +2,16 @@
 templateKey: company-page
 pageTitle: Our Company
 heading: Our Company
+leadershipHeading: Ferguson Box Leadership
+leadership:
+  - photo: ../../../static/uploads/paige_ferguson.jpg
+    name: Paige Ferguson Burgess
+    title: President
+    email: pburgess@fergusonbox.com
+  - photo: ../../../static/uploads/chip_ferguson.jpg
+    name: Chip Ferguson 
+    title: Vice-President
+    email: cferguson@fergusonbox.com
 ---
 - - -
 
@@ -36,20 +46,6 @@ Be every customer's supplier of choice by emphasizing a value-added partnership 
 - - -
 
 ### Ferguson Box Team
-
-|                                                                        |
-| ---------------------------------------------------------------------- |
-| ![Paige Ferguson Burgess](uploads/paige_ferguson.jpg)                  |
-| Paige Ferguson Burgess                                                 |
-| *President*                                                            |
-| <a href="mailto:pburgess@fergusonbox.com">pburgess@fergusonbox.com</a> |
-
-|                                                                          |
-| ------------------------------------------------------------------------ |
-| ![Chip Ferguson](uploads/chip_ferguson.jpg)                              |
-| Chip Ferguson                                                            |
-| *Vice-President*                                                         |
-| <a href="mailto:cferguson@fergusonbox.com">cferguson@fergusonbox.com</a> |
 
 Ferguson Box is a business built on the equity of long-term employees with an infusion of young talent and fresh skills. The company is led by Paige Ferguson Burgess and Chip Ferguson, children of founder Charles Ferguson. They strive to continue their father’s legacy of hiring and keeping the best people in the business to grow and sustain Ferguson Box.
 

@@ -4,12 +4,15 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import ScrollToTopButton from '../components/ScrollToTopButton'
+import LeadershipElement from '../components/LeadershipElement'
 
 import '../global.scss'
 import './company-page.scss'
 
 export const CompanyPageTemplate = ({
   heading,
+  leadershipHeading,
+  leadership,
   html
 }) => (
   <div className="company-page">
@@ -18,6 +21,23 @@ export const CompanyPageTemplate = ({
       className="company-page__content" 
       dangerouslySetInnerHTML={{ __html: html }}>
     </div>
+    <hr></hr>
+    <h3>{leadershipHeading}</h3>
+    <div className="company-page__leadership">
+      {leadership && leadership.map(({
+          photo,
+          name,
+          title,
+          email
+        }) => (
+        <LeadershipElement
+          photo={photo}
+          name={name}
+          title={title}
+          email={email}
+        />
+      ))}
+    </div>
     <ScrollToTopButton />
   </div>
 )
@@ -25,6 +45,8 @@ export const CompanyPageTemplate = ({
 CompanyPageTemplate.propTypes = {
   heading: PropTypes.string.isRequired,
   pageTitle: PropTypes.string.isRequired,
+  leadershipHeading: PropTypes.string.isRequired,
+  leadership: PropTypes.array.isRequired
 }
 
 const CompanyPage = ({ data }) => {
@@ -35,6 +57,8 @@ const CompanyPage = ({ data }) => {
       <CompanyPageTemplate
         html={html}
         heading={frontmatter.heading}
+        leadershipHeading={frontmatter.leadershipHeading}
+        leadership={frontmatter.leadership}
       />
     </Layout>
   )
@@ -58,6 +82,19 @@ export const pageQuery = graphql`
       frontmatter {
         pageTitle
         heading
+        leadershipHeading
+        leadership {
+          photo {
+            childImageSharp {
+              fluid(maxWidth: 1200, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          name
+          title
+          email
+        }
       }
     }
   }
