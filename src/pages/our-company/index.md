@@ -39,22 +39,20 @@ Be every customer's supplier of choice by emphasizing a value-added partnership 
 
 |                                                                        |
 | ---------------------------------------------------------------------- |
-| ![Paige Ferguson Burgess](uploads/paige_ferguson.jpg)           |                                             
+| ![Paige Ferguson Burgess](uploads/paige_ferguson.jpg)                  |
 | Paige Ferguson Burgess                                                 |
 | *President*                                                            |
 | <a href="mailto:pburgess@fergusonbox.com">pburgess@fergusonbox.com</a> |
 
 |                                                                          |
 | ------------------------------------------------------------------------ |
-| ![Chip Ferguson](uploads/chip_ferguson.jpg)             |
+| ![Chip Ferguson](uploads/chip_ferguson.jpg)                              |
 | Chip Ferguson                                                            |
 | *Vice-President*                                                         |
 | <a href="mailto:cferguson@fergusonbox.com">cferguson@fergusonbox.com</a> |
 
 Ferguson Box is a business built on the equity of long-term employees with an infusion of young talent and fresh skills. The company is led by Paige Ferguson Burgess and Chip Ferguson, children of founder Charles Ferguson. They strive to continue their father’s legacy of hiring and keeping the best people in the business to grow and sustain Ferguson Box.
 
-![Ferguson Box Office Staff](/uploads/ferguson_box_office_staff.jpg)
-
-*<p align="center">Ferguson Box Office Staff</p>*
+![Ferguson Box Office Staff](/uploads/ferguson_box_office_staff.jpg "Ferguson Box Office Staff")
 
 We believe that Ferguson Box is successful because our talented staff carries out the philosophy that customers come first.
