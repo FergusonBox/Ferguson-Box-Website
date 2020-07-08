@@ -18,7 +18,7 @@ boxNav:
 
 ### Full Service Design
 
-With an in-house design department, we can collaborate with you to produce packaging, point-of-purchase, and dimensional direct mail pieces that sell your product or service. Using our Kongsberg XL 44 CAD table, graphic software, and Fujifilm Acuity HD 2504 flatbed inkjet printer, we can create structural samples and mockups quickly.
+With an in-house design department, we can collaborate with you to produce packaging, point-of-purchase, and dimensional direct mail pieces that sell your product or service. Using our Kongsberg XL-44 CAD table, graphic software, and Fujifilm Acuity HD 2504 flatbed inkjet printer, we can create structural samples and mockups quickly.
 
 ![Assorted carton designs](/uploads/assorted_cartons.jpg)
 
