@@ -31,7 +31,6 @@ collections:
           - {label: "Quick Links", name: quickLinks, widget: list, fields: [
               {label: Title, name: title, widget: string}, 
               {label: Description, name: text, widget: text},
-              {label: "Page Link", name: link, widget: string},
               {label: "PDF Link Text", name: docLinkText, widget: string, required: false},
               {label: "PDF", name: docLink, widget: file, required: false}
             ]}
