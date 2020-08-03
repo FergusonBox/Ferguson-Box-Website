@@ -6,7 +6,8 @@ quickLinks:
   - title: Custom Boxes
     text: Creative custom design solutions for any production packaging requirements.
   - title: Over-Run Boxes
-    text: Ferguson Box offers the largest inventory of odd-lot and over-run boxes in the southeast at closeout pricing.
+    text: Ferguson Box offers the largest inventory of odd-lot and over-run boxes in
+      the southeast at closeout pricing.
     docLink: ../../static/uploads/odd_lots_current_stock.pdf
     docLinkText: Click here for current inventory
   - title: Stock Boxes
@@ -14,7 +15,7 @@ quickLinks:
     docLink: ../../static/uploads/stock_boxes_web.pdf
     docLinkText: Click here for available sizes
 ---
-Ferguson Box has combined 50 years of values and tradition with a commitment to packaging done right.
+Ferguson Box has combined 60 years of values and tradition with a commitment to packaging done right.
 
 Since 1959, Ferguson Box has had a presence in the corrugated packaging business in the Southeast.  We’ve served our customers and employees through growth in size as well as through expansion of services.  With 183,000 square feet of manufacturing space in southwest Charlotte, Ferguson Box offers state-of-the-art machinery and equipment along with graphic and structural expertise. Yet, we still retain our hardworking roots and accessibility to owners and management.
 
