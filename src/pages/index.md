@@ -7,7 +7,7 @@ quickLinks:
     text: Creative custom design solutions for any production packaging requirements.
   - title: Over-Run Boxes
     text: Ferguson Box offers the largest inventory of odd-lot and over-run boxes in
-      the southeast at closeout pricing.
+      the Southeast at closeout pricing.
     docLink: ../../static/uploads/odd_lots_current_stock.pdf
     docLinkText: Click here for current inventory
   - title: Stock Boxes
