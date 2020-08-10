@@ -67,13 +67,7 @@ module.exports = {
               maxWidth: 760
             },
           },
-          {
-            resolve: 'gatsby-remark-copy-linked-files',
-            options: {
-              destinationDir: 'static/uploads',
-              ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`],
-            },
-          },
+          
         ],
       },
     },
