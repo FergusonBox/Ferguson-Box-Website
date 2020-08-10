@@ -40,7 +40,7 @@ Customized vendor-managed inventory (VMI) programs are available based on custom
 
 Ferguson Box has the industrial space and flexibility to offer turnkey solutions for your packaging needs.  With on-site warehousing and distribution working in tandem with a company-owned truck fleet, Ferguson offers complete, customized fulfillment services for your next packaging project.
 
-![Packed boxes stacked in a warehouse](/uploads/packed_boxes.jpg)
+![Packed boxes in a warehouse.](/uploads/packed_boxes.jpg)
 
 - - -
 
