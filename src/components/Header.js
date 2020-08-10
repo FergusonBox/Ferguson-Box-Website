@@ -6,6 +6,10 @@ import ISOCert from '../../static/uploads/iso_cert_badge.png'
 import SFICert from '../../static/uploads/sfi_cert_badge.png'
 import WBENCCert from '../../static/uploads/wbenc_cert_badge.png'
 
+import ISOCertDoc from '../../static/uploads/iso_certificate.pdf'
+import SFICertDoc from '../../static/uploads/sfi_certificate.pdf'
+import WBENCCertDoc from '../../static/uploads/wbenc_certificate.pdf'
+
 import './Header.scss'
 
 const Header = () => {
@@ -18,15 +22,6 @@ const Header = () => {
           }
         }
       }
-      ISOCertDoc: file(relativePath: { eq: "iso_certificate.pdf" }) {
-        publicURL
-      }
-      SFICertDoc: file(relativePath: { eq: "sfi_certificate.pdf" }) {
-        publicURL
-      }
-      WBENCCertDoc: file(relativePath: { eq: "wbenc_certificate.pdf" }) {
-        publicURL
-      }
     }
   `)
   return (
@@ -35,13 +30,13 @@ const Header = () => {
         <Img fixed={data.logo.childImageSharp.fixed} alt="Ferguson Box logo" />
       </a>
       <div className="header__certifications">
-        <a className="header__certifications__item" href={data.ISOCertDoc.publicURL} target="_blank" rel="noreferrer">
+        <a className="header__certifications__item" href={ISOCertDoc} target="_blank" rel="noreferrer">
           <img src={ISOCert} alt="ISO 9001 Certified"></img>
         </a>
-        <a className="header__certifications__item" href={data.SFICertDoc.publicURL} target="_blank" rel="noreferrer">
+        <a className="header__certifications__item" href={SFICertDoc} target="_blank" rel="noreferrer">
           <img src={SFICert} alt="SFI Certified"></img>
         </a>
-        <a className="header__certifications__item" href={data.WBENCCertDoc.publicURL} target="_blank" rel="noreferrer">
+        <a className="header__certifications__item" href={WBENCCertDoc} target="_blank" rel="noreferrer">
           <img src={WBENCCert} alt="Certified WBENC"></img>
         </a>
       </div>

@@ -1,34 +1,24 @@
 import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+
+import ISOCertDoc from '../../static/uploads/iso_certificate.pdf'
+import SFICertDoc from '../../static/uploads/sfi_certificate.pdf'
+import WBENCCertDoc from '../../static/uploads/wbenc_certificate.pdf'
 
 import './Footer.scss'
 
 const Footer = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      ISOCert: file(relativePath: { eq: "iso_certificate.pdf" }) {
-        publicURL
-      }
-      SFICert: file(relativePath: { eq: "sfi_certificate.pdf" }) {
-        publicURL
-      }
-      WBENCCert: file(relativePath: { eq: "wbenc_certificate.pdf" }) {
-        publicURL
-      }
-    }
-  `)
   return (
     <footer className="footer">
       <div className="footer__certifications">
-        <a className="footer__certifications__item" href={data.ISOCert.publicURL} target="_blank" rel="noreferrer">
+        <a className="footer__certifications__item" href={ISOCertDoc} target="_blank" rel="noreferrer">
           ISO 9001 Certified
         </a>
         <span>|</span>
-        <a className="footer__certifications__item" href={data.SFICert.publicURL} target="_blank" rel="noreferrer">
+        <a className="footer__certifications__item" href={SFICertDoc} target="_blank" rel="noreferrer">
           SFI Certified
         </a>
         <span>|</span>
-        <a className="footer__certifications__item" href={data.WBENCCert.publicURL} target="_blank" rel="noreferrer">
+        <a className="footer__certifications__item" href={WBENCCertDoc} target="_blank" rel="noreferrer">
           WBENC Certified
         </a>
       </div>
