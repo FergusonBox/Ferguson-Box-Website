@@ -28,12 +28,16 @@ collections:
           - {label: Heading, name: heading, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: Body, name: body, widget: markdown}
-          - {label: "Quick Links", name: quickLinks, widget: list, fields: [
-              {label: Title, name: title, widget: string}, 
-              {label: Description, name: text, widget: text},
-              {label: "PDF Link Text", name: docLinkText, widget: string, required: false},
-              {label: "PDF", name: docLink, widget: file, required: false}
-            ]}
+          - {label: "Quick Link 1: Title", name: title1, widget: string}
+          - {label: "Quick Link 1: Description", name: text1, widget: text}
+
+          - {label: "Quick Link 2: Title", name: title2, widget: string}
+          - {label: "Quick Link 2: Description", name: text2, widget: text}
+          - {label: "Quick Link 2: PDF Link Text", name: docLinkText2, widget: string}
+
+          - {label: "Quick Link 3: Title", name: title3, widget: string}
+          - {label: "Quick Link 3: Description", name: text3, widget: text}
+          - {label: "Quick Link 3: PDF Link Text", name: docLinkText3, widget: string}
       - file: "src/pages/our-company/index.md"
         label: "Our Company"
         name: "company"

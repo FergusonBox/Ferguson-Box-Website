@@ -9,10 +9,20 @@ import QuickLink from '../components/QuickLink'
 import '../global.scss'
 import './index-page.scss'
 
+import OddLotsDoc from '../../static/uploads/odd_lots_current_stock.pdf'
+import StockBoxesDoc from '../../static/uploads/stock_boxes_web.pdf'
+
 export const IndexPageTemplate = ({
   heading,
   image,
-  quickLinks,
+  title1,
+  text1,
+  title2,
+  text2,
+  docLinkText2,
+  title3,
+  text3,
+  docLinkText3,
   html
 }) => (
   <div className="home-page">
@@ -23,19 +33,22 @@ export const IndexPageTemplate = ({
       dangerouslySetInnerHTML={{ __html: html }}>
     </div>
     <div className="home-page__quick-links">
-      {quickLinks && quickLinks.map(({
-          title,
-          text,
-          docLink,
-          docLinkText
-        }) => (
-        <QuickLink
-          title={title}
-          text={text}
-          docLink={docLink}
-          docLinkText={docLinkText}
-        />
-      ))}
+      <QuickLink
+        title={title1}
+        text={text1}
+      />
+      <QuickLink
+        title={title2}
+        text={text2}
+        docLink={OddLotsDoc}
+        docLinkText={docLinkText2}
+      />
+      <QuickLink
+        title={title3}
+        text={text3}
+        docLink={StockBoxesDoc}
+        docLinkText={docLinkText3}
+      />
     </div>
   </div>
 )
@@ -43,8 +56,14 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   heading: PropTypes.string.isRequired,
-  
-  quickLinks: PropTypes.array,
+  title1: PropTypes.string.isRequired,
+  text1: PropTypes.string.isRequired,
+  title2: PropTypes.string.isRequired,
+  text2: PropTypes.string.isRequired,
+  docLinkText2: PropTypes.string.isRequired,
+  title3: PropTypes.string.isRequired,
+  text3: PropTypes.string.isRequired,
+  docLinkText3: PropTypes.string.isRequired,
 }
 
 const IndexPage = ({ data }) => {
@@ -56,6 +75,14 @@ const IndexPage = ({ data }) => {
         html={html}
         image={frontmatter.image}
         quickLinks={frontmatter.quickLinks}
+        title1={frontmatter.title1}
+        text1={frontmatter.text1}
+        title2={frontmatter.title2}
+        text2={frontmatter.text2}
+        docLinkText2={frontmatter.docLinkText2}
+        title3={frontmatter.title3}
+        text3={frontmatter.text3}
+        docLinkText3={frontmatter.docLinkText3}
         heading={frontmatter.heading}
       />
     </Layout>
@@ -86,14 +113,14 @@ export const pageQuery = graphql`
             }
           }
         }
-        quickLinks {
-          title
-          text
-          docLink {
-            publicURL
-          }
-          docLinkText
-        }
+        title1
+        text1
+        title2
+        text2
+        docLinkText2
+        title3
+        text3
+        docLinkText3
       }
     }
   }

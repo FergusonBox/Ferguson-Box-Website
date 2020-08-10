@@ -12,7 +12,7 @@ const QuickLink = ({
     <div className="quick-link" >
       <h2>{title}</h2>
       <p>{text}</p>
-      {docLinkText && <a href={docLink.publicURL} className="quick-link__link">{docLinkText}</a>}
+      {docLinkText && <a href={docLink} className="quick-link__link">{docLinkText}</a>}
     </div>
 )
 

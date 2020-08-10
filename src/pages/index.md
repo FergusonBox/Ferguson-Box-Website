@@ -2,18 +2,15 @@
 templateKey: index-page
 heading: Ferguson Supply & Box Manufacturing Company
 image: ../../static/uploads/ferguson_box_pano.jpg
-quickLinks:
-  - title: Custom Boxes
-    text: Creative custom design solutions for any production packaging requirements.
-  - title: Over-Run Boxes
-    text: Ferguson Box offers the largest inventory of odd-lot and over-run boxes in
+title1: Custom Boxes
+text1: Creative custom design solutions for any production packaging requirements.
+title2: Over-Run Boxes
+text2: Ferguson Box offers the largest inventory of odd-lot and over-run boxes in
       the Southeast at closeout pricing.
-    docLink: ../../static/uploads/odd_lots_current_stock.pdf
-    docLinkText: Click here for current inventory
-  - title: Stock Boxes
-    text: Inventory of common sizes and strengths ready for immediate shipment.
-    docLink: ../../static/uploads/stock_boxes_web.pdf
-    docLinkText: Click here for available sizes
+docLinkText2: Click here for current inventory
+title3: Stock Boxes
+text3: Inventory of common sizes and strengths ready for immediate shipment.
+docLinkText3: Click here for available sizes
 ---
 Ferguson Box has combined 60 years of values and tradition with a commitment to packaging done right.
 
