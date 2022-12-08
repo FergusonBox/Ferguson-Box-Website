@@ -1,6 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from "gatsby-plugin-image"
 
 import ISOCert from '../../static/uploads/iso_cert_badge.png'
 import SFICert from '../../static/uploads/sfi_cert_badge.png'
@@ -17,9 +17,7 @@ const Header = () => {
     query {
       logo: file(relativePath: { eq: "ferguson_box_logo.png" }) {
         childImageSharp {
-          fixed(width: 180, height: 112) {
-            ...GatsbyImageSharpFixed_tracedSVG
-          }
+          gatsbyImageData(layout: FIXED, width: 180, height: 112, placeholder: NONE)
         }
       }
     }
@@ -27,7 +25,7 @@ const Header = () => {
   return (
     <div className="header">
       <a href="/">
-        <Img fixed={data.logo.childImageSharp.fixed} alt="Ferguson Box logo" />
+        <GatsbyImage image={data.logo.childImageSharp.gatsbyImageData} alt="Ferguson Box logo" />
       </a>
       <div className="header__certifications">
         <a className="header__certifications__item" href={ISOCertDoc} target="_blank" rel="noreferrer">

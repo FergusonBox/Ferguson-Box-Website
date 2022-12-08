@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Img from 'gatsby-image'
+import { GatsbyImage } from "gatsby-plugin-image"
 
 import './LeadershipElement.scss'
 
@@ -11,7 +11,7 @@ const LeadershipElement = ({
   email 
 }) => (
     <div className="leadership-element" >
-      <Img fluid={photo.childImageSharp.fluid} alt={name} className="leadership-element__photo"></Img>
+      <GatsbyImage image={photo.childImageSharp.gatsbyImageData} alt={name} className="leadership-element__photo"></GatsbyImage>
       <span>{name}</span>
       <i>{title}</i>
       <a href={`mailto:` + email} >{email}</a>

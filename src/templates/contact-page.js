@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from "gatsby-plugin-image"
 
 import Layout from '../components/Layout'
 
@@ -23,7 +23,7 @@ export const ContactPageTemplate = ({
 }) => (
   <div className="contact-page">
     <h1>{heading}</h1>
-    <Img fixed={image.childImageSharp.fixed} alt="Ferguson Box building entrance" className="contact-page__photo"></Img>
+    <GatsbyImage image={image.childImageSharp.gatsbyImageData} alt="Ferguson Box building entrance" className="contact-page__photo"></GatsbyImage>
     <div className="contact-page__info">
       <p>PHONE: <a href={"tel:" + phoneNum1.replace(/-|\./g,'')}>{phoneNum1}</a> <span>■</span> <a href={"tel:" + phoneNum2.replace(/-|\./g,'')}>{phoneNum2}</a> </p>
       <p>FAX: {faxNum}</p>
@@ -97,9 +97,7 @@ export const pageQuery = graphql`
         pageTitle
         image {
           childImageSharp {
-            fixed(width: 420, height: 280) {
-              ...GatsbyImageSharpFixed
-            }
+            gatsbyImageData(layout: FIXED, width: 420, height: 280)
           }
         }
         phoneNum1

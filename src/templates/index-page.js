@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from "gatsby-plugin-image"
 
 import Layout from '../components/Layout'
 import QuickLink from '../components/QuickLink'
@@ -27,7 +27,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div className="home-page">
     <h1>{heading}</h1>
-    <Img fluid={image.childImageSharp.fluid} alt="Ferguson Box facility"></Img>
+    <GatsbyImage image={image.childImageSharp.gatsbyImageData} alt="Ferguson Box facility"></GatsbyImage>
     <div 
       className="home-page__content" 
       dangerouslySetInnerHTML={{ __html: html }}>
@@ -108,9 +108,7 @@ export const pageQuery = graphql`
         heading
         image {
           childImageSharp {
-            fluid(maxWidth: 1200, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(layout: CONSTRAINED, quality: 100)
           }
         }
         title1

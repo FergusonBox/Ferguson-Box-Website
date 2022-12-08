@@ -17,7 +17,7 @@ leadership:
 
 ### History
 
-![Charlie Ferguson Portrait](/uploads/charles_ferguson.jpg#align-right)
+![Charlie Ferguson Portrait](/uploads/charles_ferguson.jpg)
 
 Charles “Charlie” Ferguson followed his dream and founded Ferguson Box in his Charlotte garage in 1959 after working for a local recycled paper company. “One day in 1959,” he said, “I quit my job, went home and paid my rent and bought groceries. I had $35 left over, and with that I bought a load of once-used corrugated boxes. I stored them in the garage of the house we were renting on Barringer Drive.” With this $35, Ferguson set out to build a business based on service and hard work.
 
@@ -25,7 +25,7 @@ After selling these second-hand boxes on feet for several months, Ferguson bough
 
 In 1972, he put everything on the line and opened our manufacturing facility on Graham Street in Charlotte. “If it hadn’t worked,” Ferguson said, “the banks could have taken everything, right down to my kids’ tricycles.” But it definitely worked. Now able to design and make custom boxes, business took off and Ferguson Supply and Box Manufacturing Company became a major regional force in the industry.
 
-![Charlie Ferguson's Boxing Gloves](/uploads/charlie_boxing_gloves.jpg#align-left "Charlie Ferguson's Boxing Gloves")
+![Charlie Ferguson's Boxing Gloves](/uploads/charlie_boxing_gloves.jpg "Charlie Ferguson's Boxing Gloves")
 
 That facility was later expanded in 1985, then a second building was bought to house the company’s Packaging Division in 1992. After being big in boxing inside the ring (Charlie was a professional boxer inducted into the Carolinas Boxing Hall of Fame in 1990), he was officially big in ‘boxing’ outside the ring as well.
 
@@ -41,7 +41,7 @@ Be every customer's supplier of choice by emphasizing a value-added partnership 
 * Providing a full range of packaging and point-of-sale solutions to manufacturing and distributions companies in the Southeast
 * Upholding the values of integrity, resourcefulness, and innovation with employees, customers, and our network of suppliers
 
-![Ferguson Box Facility Entrance](uploads/ferguson_box_front_entrance.jpg)
+![Ferguson Box Facility Entrance](uploads/ferguson_box_front_entrance.jpg "Ferguson Box Facility Entrance")
 
 - - -
 

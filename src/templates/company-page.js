@@ -86,9 +86,7 @@ export const pageQuery = graphql`
         leadership {
           photo {
             childImageSharp {
-              fluid(maxWidth: 1200, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(layout: CONSTRAINED, quality: 100)
             }
           }
           name
