@@ -22,17 +22,29 @@
       display: flex;
       align-items: flex-end;
 
+      width: 13rem;
+      flex-wrap: wrap;
+
+      @include desktop {
+        width: auto
+      }
+
       &__item {
         position: relative;
 
         padding: 0 0.25rem;
 
         img {
-          height: 1.75rem;
+          width: 6rem;
           object-fit: contain;
 
           @include desktop {
+            width: 5rem;
+          }
+
+          @include xl-desktop {
             height: 2.5rem;
+            width: auto;
           }
         }
       }
