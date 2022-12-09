@@ -1,19 +1,16 @@
 module.exports = {
   siteMetadata: {
     title: 'Ferguson Box',
-    description:
-      'Packaging Done Right',
+    description: 'Packaging Done Right',
     keywords:
-      'packaging, boxes, ferguson box, ferguson, box, corrugated, cardboard, packaging supplies'
+      'packaging, boxes, ferguson box, ferguson, box, corrugated, cardboard, packaging supplies',
   },
   plugins: [
     'gatsby-plugin-sass',
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-            `Roboto\:300`
-        ]
+        fonts: [`Roboto\:300`],
       },
     },
     {
@@ -50,8 +47,8 @@ module.exports = {
       options: {
         defaults: {
           placeholder: 'blurred',
-        }
-      }
+        },
+      },
     },
     'gatsby-transformer-sharp',
     {
@@ -67,10 +64,9 @@ module.exports = {
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 760
+              maxWidth: 760,
             },
           },
-          
         ],
       },
     },

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import { GatsbyImage } from "gatsby-plugin-image"
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 import ISOCert from '../../static/uploads/iso_cert_badge.png'
 import SFICert from '../../static/uploads/sfi_cert_badge.png'
@@ -19,7 +19,12 @@ const Header = () => {
     query {
       logo: file(relativePath: { eq: "ferguson_box_logo.png" }) {
         childImageSharp {
-          gatsbyImageData(layout: FIXED, width: 180, height: 112, placeholder: NONE)
+          gatsbyImageData(
+            layout: FIXED
+            width: 180
+            height: 112
+            placeholder: NONE
+          )
         }
       }
     }
@@ -27,19 +32,42 @@ const Header = () => {
   return (
     <div className="header">
       <a href="/">
-        <GatsbyImage image={data.logo.childImageSharp.gatsbyImageData} alt="Ferguson Box logo" />
+        <GatsbyImage
+          image={data.logo.childImageSharp.gatsbyImageData}
+          alt="Ferguson Box logo"
+        />
       </a>
       <div className="header__certifications">
-        <a className="header__certifications__item" href={FSCCertDoc} target="_blank" rel="noreferrer">
+        <a
+          className="header__certifications__item"
+          href={FSCCertDoc}
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={FSCCert} alt="FSC Certified"></img>
         </a>
-        <a className="header__certifications__item" href={ISOCertDoc} target="_blank" rel="noreferrer">
+        <a
+          className="header__certifications__item"
+          href={ISOCertDoc}
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={ISOCert} alt="ISO 9001 Certified"></img>
         </a>
-        <a className="header__certifications__item" href={SFICertDoc} target="_blank" rel="noreferrer">
+        <a
+          className="header__certifications__item"
+          href={SFICertDoc}
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={SFICert} alt="SFI Certified"></img>
         </a>
-        <a className="header__certifications__item" href={WBENCCertDoc} target="_blank" rel="noreferrer">
+        <a
+          className="header__certifications__item"
+          href={WBENCCertDoc}
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={WBENCCert} alt="Certified WBENC"></img>
         </a>
       </div>

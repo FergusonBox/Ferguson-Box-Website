@@ -5,7 +5,7 @@ import HamburgerMenu from 'react-hamburger-menu'
 
 import './Navbar.scss'
 
-const activeFromPx = 115;
+const activeFromPx = 115
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -13,22 +13,24 @@ const Navbar = class extends React.Component {
 
     this.state = {
       active: false,
-      scrolling: false
+      scrolling: false,
     }
   }
-  
+
   componentDidMount = () => {
-    window.addEventListener('scroll', this.handleScroll);
-    this.handleScroll();
-  };
+    window.addEventListener('scroll', this.handleScroll)
+    this.handleScroll()
+  }
 
   componentWillUnmount = () => {
-    window.removeEventListener('scroll', this.handleScroll);
+    window.removeEventListener('scroll', this.handleScroll)
   }
 
   handleScroll = () => {
-    const { top } = document.body.getBoundingClientRect();
-    (-1 * top > activeFromPx) ? this.setState({ scrolling: true }) : this.setState({ scrolling: false });
+    const { top } = document.body.getBoundingClientRect()
+    ;-1 * top > activeFromPx
+      ? this.setState({ scrolling: true })
+      : this.setState({ scrolling: false })
   }
 
   render() {
@@ -41,7 +43,7 @@ const Navbar = class extends React.Component {
             width={26}
             height={16}
             strokeWidth={3}
-            color='#ffffff'
+            color="#ffffff"
             animationDuration={0.2}
           />
         </div>
@@ -52,19 +54,39 @@ const Navbar = class extends React.Component {
             </Link>
           </div>
           <div className={`navbar__menu ${this.state.active && 'open'}`}>
-            <Link className="navbar__item" to="/our-company" activeClassName="active">
+            <Link
+              className="navbar__item"
+              to="/our-company"
+              activeClassName="active"
+            >
               OUR COMPANY
             </Link>
-            <Link className="navbar__item" to="/capabilities" activeClassName="active">
+            <Link
+              className="navbar__item"
+              to="/capabilities"
+              activeClassName="active"
+            >
               CAPABILITIES
             </Link>
-            <Link className="navbar__item" to="/services" activeClassName="active">
+            <Link
+              className="navbar__item"
+              to="/services"
+              activeClassName="active"
+            >
               SERVICES
             </Link>
-            <Link className="navbar__item" to="/products" activeClassName="active">
+            <Link
+              className="navbar__item"
+              to="/products"
+              activeClassName="active"
+            >
               PRODUCTS
             </Link>
-            <Link className="navbar__item" to="/contact" activeClassName="active">
+            <Link
+              className="navbar__item"
+              to="/contact"
+              activeClassName="active"
+            >
               CONTACT US
             </Link>
           </div>
