@@ -40,14 +40,6 @@ const Header = () => {
       <div className="header__certifications">
         <a
           className="header__certifications__item"
-          href={FSCCertDoc}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={FSCCert} alt="FSC Certified"></img>
-        </a>
-        <a
-          className="header__certifications__item"
           href={ISOCertDoc}
           target="_blank"
           rel="noreferrer"
@@ -69,6 +61,14 @@ const Header = () => {
           rel="noreferrer"
         >
           <img src={WBENCCert} alt="Certified WBENC"></img>
+        </a>
+        <a
+          className="header__certifications__item"
+          href={FSCCertDoc}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={FSCCert} alt="FSC Certified"></img>
         </a>
       </div>
     </div>
