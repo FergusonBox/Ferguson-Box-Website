@@ -41,8 +41,6 @@ Be every customer's supplier of choice by emphasizing a value-added partnership 
 * Providing a full range of packaging and point-of-sale solutions to manufacturing and distributions companies in the Southeast
 * Upholding the values of integrity, resourcefulness, and innovation with employees, customers, and our network of suppliers
 
-![Ferguson Box Facility Entrance](uploads/ferguson_box_front_entrance.jpg "Ferguson Box Facility Entrance")
-
 - - -
 
 ### Ferguson Box Team
