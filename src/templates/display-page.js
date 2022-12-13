@@ -1,3 +1,5 @@
+/* eslint-disable limited-exports-page-templates */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
@@ -8,16 +10,13 @@ import ScrollToTopButton from '../components/ScrollToTopButton'
 import '../global.scss'
 import './display-page.scss'
 
-export const DisplayPageTemplate = ({
-  heading,
-  html
-}) => (
+export const DisplayPageTemplate = ({ heading, html }) => (
   <div className="display-page">
     <h1>{heading}</h1>
-    <div 
-      className="display-page__content" 
-      dangerouslySetInnerHTML={{ __html: html }}>
-    </div>
+    <div
+      className="display-page__content"
+      dangerouslySetInnerHTML={{ __html: html }}
+    ></div>
     <ScrollToTopButton />
   </div>
 )
@@ -31,10 +30,7 @@ const DisplayPage = ({ data }) => {
 
   return (
     <Layout pageTitle={frontmatter.pageTitle} boxNav={frontmatter.boxNav}>
-      <DisplayPageTemplate
-        html={html}
-        heading={frontmatter.heading}
-      />
+      <DisplayPageTemplate html={html} heading={frontmatter.heading} />
     </Layout>
   )
 }
@@ -52,7 +48,7 @@ export default DisplayPage
 
 export const pageQuery = graphql`
   query DisplayPageTemplate($id: String!) {
-    markdownRemark(id: { eq: $id } ) {
+    markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
         pageTitle

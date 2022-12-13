@@ -1,7 +1,9 @@
+/* eslint-disable limited-exports-page-templates */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 import Layout from '../components/Layout'
 import QuickLink from '../components/QuickLink'
@@ -23,20 +25,20 @@ export const IndexPageTemplate = ({
   title3,
   text3,
   docLinkText3,
-  html
+  html,
 }) => (
   <div className="home-page">
     <h1>{heading}</h1>
-    <Img fluid={image.childImageSharp.fluid} alt="Ferguson Box facility"></Img>
-    <div 
-      className="home-page__content" 
-      dangerouslySetInnerHTML={{ __html: html }}>
-    </div>
+    <GatsbyImage
+      image={image.childImageSharp.gatsbyImageData}
+      alt="Ferguson Box facility"
+    ></GatsbyImage>
+    <div
+      className="home-page__content"
+      dangerouslySetInnerHTML={{ __html: html }}
+    ></div>
     <div className="home-page__quick-links">
-      <QuickLink
-        title={title1}
-        text={text1}
-      />
+      <QuickLink title={title1} text={text1} />
       <QuickLink
         title={title2}
         text={text2}
@@ -102,15 +104,13 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query IndexPageTemplate($id: String!) {
-    markdownRemark(id: { eq: $id } ) {
+    markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
         heading
         image {
           childImageSharp {
-            fluid(maxWidth: 1200, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(layout: CONSTRAINED, quality: 100)
           }
         }
         title1

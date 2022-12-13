@@ -1,3 +1,5 @@
+/* eslint-disable limited-exports-page-templates */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
@@ -13,30 +15,26 @@ export const CompanyPageTemplate = ({
   heading,
   leadershipHeading,
   leadership,
-  html
+  html,
 }) => (
   <div className="company-page">
     <h1>{heading}</h1>
-    <div 
-      className="company-page__content" 
-      dangerouslySetInnerHTML={{ __html: html }}>
-    </div>
+    <div
+      className="company-page__content"
+      dangerouslySetInnerHTML={{ __html: html }}
+    ></div>
     <hr></hr>
     <h3>{leadershipHeading}</h3>
     <div className="company-page__leadership">
-      {leadership && leadership.map(({
-          photo,
-          name,
-          title,
-          email
-        }) => (
-        <LeadershipElement
-          photo={photo}
-          name={name}
-          title={title}
-          email={email}
-        />
-      ))}
+      {leadership &&
+        leadership.map(({ photo, name, title, email }) => (
+          <LeadershipElement
+            photo={photo}
+            name={name}
+            title={title}
+            email={email}
+          />
+        ))}
     </div>
     <ScrollToTopButton />
   </div>
@@ -46,7 +44,7 @@ CompanyPageTemplate.propTypes = {
   heading: PropTypes.string.isRequired,
   pageTitle: PropTypes.string.isRequired,
   leadershipHeading: PropTypes.string.isRequired,
-  leadership: PropTypes.array.isRequired
+  leadership: PropTypes.array.isRequired,
 }
 
 const CompanyPage = ({ data }) => {
@@ -77,7 +75,7 @@ export default CompanyPage
 
 export const pageQuery = graphql`
   query CompanyPageTemplate($id: String!) {
-    markdownRemark(id: { eq: $id } ) {
+    markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
         pageTitle
@@ -86,9 +84,7 @@ export const pageQuery = graphql`
         leadership {
           photo {
             childImageSharp {
-              fluid(maxWidth: 1200, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(layout: CONSTRAINED, quality: 100)
             }
           }
           name

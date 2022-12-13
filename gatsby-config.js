@@ -1,20 +1,16 @@
 module.exports = {
   siteMetadata: {
     title: 'Ferguson Box',
-    description:
-      'Packaging Done Right',
+    description: 'Packaging Done Right',
     keywords:
-      'packaging, boxes, ferguson box, ferguson, box, corrugated, cardboard, packaging supplies'
+      'packaging, boxes, ferguson box, ferguson, box, corrugated, cardboard, packaging supplies',
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-            `Roboto\:300`
-        ]
+        fonts: [`Roboto\:300`],
       },
     },
     {
@@ -46,7 +42,14 @@ module.exports = {
         name: 'images',
       },
     },
-    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-plugin-sharp',
+      options: {
+        defaults: {
+          placeholder: 'blurred',
+        },
+      },
+    },
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-transformer-remark',
@@ -61,10 +64,10 @@ module.exports = {
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 760
+              maxWidth: 760,
             },
           },
-          
+          'gatsby-remark-static-images',
         ],
       },
     },
@@ -74,6 +77,7 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    'gatsby-plugin-image',
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }

@@ -15,8 +15,8 @@ const ContactPagePreview = ({ entry, getAsset }) => {
     officeHours,
     addressLine1,
     addressLine2,
-    directions
-  } = data;
+    directions,
+  } = data
 
   if (data) {
     return (

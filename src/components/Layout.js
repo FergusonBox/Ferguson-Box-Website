@@ -56,12 +56,8 @@ const TemplateWrapper = ({ pageTitle, boxNav, children }) => {
       </Helmet>
       <Header />
       <Navbar />
-      { boxNav &&
-        <BoxNav boxNav={boxNav} />
-      }
-      <div className="page-content">
-        {children}
-      </div>
+      {boxNav && <BoxNav boxNav={boxNav} />}
+      <div className="page-content">{children}</div>
       <Footer />
     </div>
   )
