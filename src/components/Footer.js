@@ -17,7 +17,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          FSC&reg; Certified
+          FSC<sup>&reg;</sup> Certified
         </a>
         <span>|</span>
         <a
