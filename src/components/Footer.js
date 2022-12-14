@@ -17,7 +17,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          FSC Certified
+          FSC&reg; Certified
         </a>
         <span>|</span>
         <a
