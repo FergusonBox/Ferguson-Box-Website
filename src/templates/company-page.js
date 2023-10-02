@@ -6,15 +6,15 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import ScrollToTopButton from '../components/ScrollToTopButton'
-import LeadershipElement from '../components/LeadershipElement'
+import TeamMember from '../components/TeamMember'
 
 import '../global.scss'
 import './company-page.scss'
 
 export const CompanyPageTemplate = ({
   heading,
-  leadershipHeading,
-  leadership,
+  ourTeamHeading,
+  team,
   html,
 }) => (
   <div className="company-page">
@@ -24,15 +24,14 @@ export const CompanyPageTemplate = ({
       dangerouslySetInnerHTML={{ __html: html }}
     ></div>
     <hr></hr>
-    <h3>{leadershipHeading}</h3>
-    <div className="company-page__leadership">
-      {leadership &&
-        leadership.map(({ photo, name, title, email }) => (
-          <LeadershipElement
+    <h3>{ourTeamHeading}</h3>
+    <div className="company-page__team">
+      {team &&
+        team.map(({ photo, name, title }) => (
+          <TeamMember
             photo={photo}
             name={name}
             title={title}
-            email={email}
           />
         ))}
     </div>
@@ -43,8 +42,8 @@ export const CompanyPageTemplate = ({
 CompanyPageTemplate.propTypes = {
   heading: PropTypes.string.isRequired,
   pageTitle: PropTypes.string.isRequired,
-  leadershipHeading: PropTypes.string.isRequired,
-  leadership: PropTypes.array.isRequired,
+  ourTeamHeading: PropTypes.string.isRequired,
+  team: PropTypes.array.isRequired,
 }
 
 const CompanyPage = ({ data }) => {
@@ -55,8 +54,8 @@ const CompanyPage = ({ data }) => {
       <CompanyPageTemplate
         html={html}
         heading={frontmatter.heading}
-        leadershipHeading={frontmatter.leadershipHeading}
-        leadership={frontmatter.leadership}
+        ourTeamHeading={frontmatter.ourTeamHeading}
+        team={frontmatter.team}
       />
     </Layout>
   )
@@ -80,8 +79,8 @@ export const pageQuery = graphql`
       frontmatter {
         pageTitle
         heading
-        leadershipHeading
-        leadership {
+        ourTeamHeading
+        team {
           photo {
             childImageSharp {
               gatsbyImageData(layout: CONSTRAINED, quality: 100)
@@ -89,7 +88,6 @@ export const pageQuery = graphql`
           }
           name
           title
-          email
         }
       }
     }
