@@ -2,16 +2,66 @@
 templateKey: company-page
 pageTitle: Our Company
 heading: Our Company
-leadershipHeading: Ferguson Box Leadership
-leadership:
-  - photo: ../../../static/uploads/paige_ferguson.jpg
-    name: Paige Ferguson Burgess
+ourTeamHeading: Meet Our Team
+team:
+  - photo: ../../../static/uploads/Paige_President.jpg
+    name: Paige
     title: President
-    email: pburgess@fergusonbox.com
-  - photo: ../../../static/uploads/chip_ferguson.jpg
-    name: Chip Ferguson 
-    title: Vice-President
-    email: cferguson@fergusonbox.com
+  - photo: ../../../static/uploads/Aiden_Design.jpg
+    name: Aiden
+    title: Design
+  - photo: ../../../static/uploads/Barry_Sales.jpg
+    name: Barry
+    title: Sales
+  - photo: ../../../static/uploads/Ben_Customer_Service.jpg
+    name: Ben
+    title: Customer Service
+  - photo: ../../../static/uploads/Danny_Plant_Manager.jpg
+    name: Danny
+    title: Plant Manager
+  - photo: ../../../static/uploads/Erin_Sales_Customer_Service.jpg
+    name: Erin
+    title: Sales/Customer Service
+  - photo: ../../../static/uploads/Heather_HR_Manager.jpg
+    name: Heather
+    title: HR Manager
+  - photo: ../../../static/uploads/Janice_Controller.jpg
+    name: Janice
+    title: Controller
+  - photo: ../../../static/uploads/Jasen_Sales.jpg
+    name: Jasen
+    title: Sales
+  - photo: ../../../static/uploads/Jeff.jpg
+    name: Jeff
+    title: Sales
+  - photo: ../../../static/uploads/Jenna_Packaging_Consultant.jpg
+    name: Jenna
+    title: Packaging Consultant
+  - photo: ../../../static/uploads/JohnF_Sales.jpg
+    name: John F.
+    title: Sales
+  - photo: ../../../static/uploads/JohnP_Sales.jpg
+    name: John P.
+    title: Sales
+  - photo: ../../../static/uploads/Marla_Receptionist.jpg
+    name: Marla
+    title: Receptionist
+  - photo: ../../../static/uploads/Nathan_Process_Improvement_Manager.jpg
+    name: Nathan
+    title: Process Improvement Manager
+  - photo: ../../../static/uploads/Sam_Packaging_Consultant.jpg
+    name: Sam
+    title: Packaging Consultant
+  - photo: ../../../static/uploads/Steve_Transportation_Supervisor.jpg
+    name: Steve
+    title: Transportation Supervisor
+  - photo: ../../../static/uploads/Tammy_Customer_Service_Manager.jpg
+    name: Tammy
+    title: Customer Service Manager
+  - photo: ../../../static/uploads/Toby_Sales.jpg
+    name: Toby
+    title: Sales
+
 ---
 - - -
 
@@ -46,7 +96,5 @@ Be every customer's supplier of choice by emphasizing a value-added partnership 
 ### Ferguson Box Team
 
 Ferguson Box is a business built on the equity of long-term employees with an infusion of young talent and fresh skills. The company is led by Paige Ferguson Burgess and Chip Ferguson, children of founder Charles Ferguson. They strive to continue their father’s legacy of hiring and keeping the best people in the business to grow and sustain Ferguson Box.
-
-![Ferguson Box Office Staff](/uploads/ferguson_box_office_staff.jpg "Ferguson Box Office Staff")
 
 We believe that Ferguson Box is successful because our talented staff carries out the philosophy that customers come first.
