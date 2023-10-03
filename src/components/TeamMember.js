@@ -4,15 +4,15 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 
 import './TeamMember.scss'
 
-const TeamMember = ({ photo, name, title, email }) => (
+const TeamMember = ({ photo, name, title }) => (
   <div className="team-member">
     <GatsbyImage
       image={photo.childImageSharp.gatsbyImageData}
       alt={name}
       className="team-member__photo"
     ></GatsbyImage>
-    <span>{name}</span>
-    <i>{title}</i>
+    <span className="team-member__name">{name}</span>
+    <i className="team-member__title">{title}</i>
   </div>
 )
 
