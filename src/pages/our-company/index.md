@@ -19,6 +19,9 @@ team:
   - photo: ../../../static/uploads/Ben_Customer_Service.jpg
     name: Ben Burgess
     title: Customer Service
+  - photo: ../../../static/img/apple-touch-icon.png
+    name: Charlie Burgess
+    title: Packaging Consultant
   - photo: ../../../static/uploads/Danny_Plant_Manager.jpg
     name: Danny Boone
     title: Plant Manager
