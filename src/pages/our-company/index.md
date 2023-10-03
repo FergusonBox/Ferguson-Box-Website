@@ -5,62 +5,65 @@ heading: Our Company
 ourTeamHeading: Meet Our Team
 team:
   - photo: ../../../static/uploads/Paige_President.jpg
-    name: Paige
+    name: Paige Ferguson Burgess
     title: President
+  - photo: ../../../static/uploads/chip_ferguson.jpg
+    name: Chip Ferguson
+    title: Vice President
   - photo: ../../../static/uploads/Aiden_Design.jpg
-    name: Aiden
+    name: Aiden Murphy
     title: Design
   - photo: ../../../static/uploads/Barry_Sales.jpg
-    name: Barry
-    title: Sales
+    name: Barry Gettys
+    title: Packaging Consultant
   - photo: ../../../static/uploads/Ben_Customer_Service.jpg
-    name: Ben
+    name: Ben Burgess
     title: Customer Service
   - photo: ../../../static/uploads/Danny_Plant_Manager.jpg
-    name: Danny
+    name: Danny Boone
     title: Plant Manager
   - photo: ../../../static/uploads/Erin_Sales_Customer_Service.jpg
-    name: Erin
-    title: Sales/Customer Service
+    name: Erin Josey
+    title: Packaging Consultant Customer Service
   - photo: ../../../static/uploads/Heather_HR_Manager.jpg
-    name: Heather
+    name: Heather Puskas
     title: HR Manager
   - photo: ../../../static/uploads/Janice_Controller.jpg
-    name: Janice
+    name: Janice Rappleyea
     title: Controller
   - photo: ../../../static/uploads/Jasen_Sales.jpg
-    name: Jasen
-    title: Sales
+    name: Jasen Nolff
+    title: Packaging Consultant
   - photo: ../../../static/uploads/Jeff.jpg
-    name: Jeff
-    title: Sales
+    name: Jeff Hargett
+    title: Packaging Consultant
   - photo: ../../../static/uploads/Jenna_Packaging_Consultant.jpg
-    name: Jenna
+    name: Jenna Carney
     title: Packaging Consultant
   - photo: ../../../static/uploads/JohnF_Sales.jpg
-    name: John F.
-    title: Sales
+    name: John Furr
+    title: Packaging Consultant
   - photo: ../../../static/uploads/JohnP_Sales.jpg
-    name: John P.
-    title: Sales
+    name: John Patyk
+    title: Packaging Consultant
   - photo: ../../../static/uploads/Marla_Receptionist.jpg
-    name: Marla
+    name: Marla Whisenant
     title: Receptionist
   - photo: ../../../static/uploads/Nathan_Process_Improvement_Manager.jpg
-    name: Nathan
+    name: Nathan Humston
     title: Process Improvement Manager
   - photo: ../../../static/uploads/Sam_Packaging_Consultant.jpg
-    name: Sam
+    name: Sam Wrenn
     title: Packaging Consultant
   - photo: ../../../static/uploads/Steve_Transportation_Supervisor.jpg
-    name: Steve
+    name: Steve Crosby
     title: Transportation Supervisor
   - photo: ../../../static/uploads/Tammy_Customer_Service_Manager.jpg
-    name: Tammy
+    name: Tammy Gesselbauer
     title: Customer Service Manager
   - photo: ../../../static/uploads/Toby_Sales.jpg
-    name: Toby
-    title: Sales
+    name: Toby Chrisley
+    title: Packaging Consultant
 
 ---
 - - -
