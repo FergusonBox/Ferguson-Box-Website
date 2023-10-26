@@ -1,0 +1,57 @@
+@import '../variables.scss';
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  text-align: center;
+
+  margin: 0.5rem 1rem;
+
+  // &:first-child, &:nth-child(2) {
+  //   flex-basis: 40%;
+  // }
+
+
+  &__photo {
+    height: 7rem;
+
+    aspect-ratio: 1 / 1;
+
+    border-radius: 100%;
+
+    margin: 0.25rem 0;
+
+    @include tablet {
+      height: 10rem;
+    }
+  }
+
+  &__name {
+    max-width: 7rem;
+
+    font-size: 12pt;
+
+    font-weight: 500;
+
+    @include tablet {
+      font-size: 13pt;
+
+      max-width: 10rem;
+    }
+  }
+
+  &__title {
+    max-width: 7rem;
+
+    font-size: 10pt;
+
+    @include tablet {
+      font-size: 11pt;
+
+      max-width: 10rem;
+    }
+  }
+}
