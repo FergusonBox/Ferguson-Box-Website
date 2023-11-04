@@ -7,9 +7,9 @@ team:
   - photo: ../../../static/uploads/Paige_President.jpg
     name: Paige Ferguson Burgess
     title: President
-  # - photo: ../../../static/uploads/chip_ferguson.jpg
-  #   name: Chip Ferguson
-  #   title: Vice President
+  - photo: ../../../static/uploads/chip_ferguson.jpg
+    name: Chip Ferguson
+    title: Vice President
   - photo: ../../../static/uploads/Aiden_Design.jpg
     name: Aiden Murphy
     title: Design
@@ -19,9 +19,9 @@ team:
   - photo: ../../../static/uploads/Ben_Customer_Service.jpg
     name: Ben Burgess
     title: Customer Service
-  # - photo: ../../../static/img/apple-touch-icon.png
-  #   name: Charlie Burgess
-  #   title: Packaging Consultant
+  - photo: ../../../static/img/apple-touch-icon.png
+    name: Charlie Burgess
+    title: Packaging Consultant
   - photo: ../../../static/uploads/Danny_Plant_Manager.jpg
     name: Danny Boone
     title: Plant Manager

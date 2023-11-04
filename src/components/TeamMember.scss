@@ -10,9 +10,9 @@
 
   margin: 0.5rem 1rem;
 
-  // &:first-child, &:nth-child(2) {
-  //   flex-basis: 40%;
-  // }
+  &:first-child, &:nth-child(2) {
+    flex-basis: 40%;
+  }
 
 
   &__photo {
