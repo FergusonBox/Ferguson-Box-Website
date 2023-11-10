@@ -46,12 +46,11 @@ collections:
           - {label: "Page Title", name: pageTitle, widget: hidden, default: "Our Company"}
           - {label: "Heading", name: "heading", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Leadership Heading", name: "leadershipHeading", widget: "string"}
-          - {label: "Leadership", name: leadership, widget: list, fields: [
+          - {label: "Our Team Heading", name: "ourTeamHeading", widget: "string"}
+          - {label: "Team", name: team, widget: list, fields: [
+              {label: Photo, name: photo, widget: image}, 
               {label: Name, name: name, widget: string},
               {label: "Job Title", name: title, widget: string},
-              {label: Photo, name: photo, widget: image}, 
-              {label: Email, name: email, widget: string},
             ]}
       - file: "src/pages/capabilities/index.md"
         label: "Capabilities"
