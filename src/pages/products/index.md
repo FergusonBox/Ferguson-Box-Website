@@ -24,8 +24,6 @@ Ferguson Box’s custom-manufactured corrugated product lines offer high-quality
 
 ![Custom box designs for various customers](/uploads/custom_boxes.jpg)
 
-
-
 - - -
 
 <a id="displays"></a>
@@ -36,17 +34,17 @@ We can design and produce a variety of display solutions to assist in effectivel
 
 ![Dewalt tools, Stanley tools, Popz popcorn, and Texas Pete hot sauce corrugated displays](/uploads/displays.png)
 
-### C﻿ustomer Pick up
-
-H﻿ours: 8:30am-12pm & 2pm-3:30pm
-
-$﻿100 Minimum Order
-
-M﻿ust Call in Order Ahead
-
 - - -
 
 <a id="stock-boxes"></a>
+
+### C﻿ustomer Pick up
+
+##### H﻿ours: 8:30am-12pm & 2pm-3:30pm
+
+##### $﻿100 Minimum Order
+
+##### M﻿ust Call in Order Ahead
 
 ### Stock Boxes
 
