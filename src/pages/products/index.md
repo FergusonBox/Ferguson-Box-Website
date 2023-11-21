@@ -40,13 +40,13 @@ We can design and produce a variety of display solutions to assist in effectivel
 
 ### C﻿ustomer Pick up
 
-##### H﻿ours: 8:30am-12pm & 2pm-3:30pm
+#### H﻿ours: 8:30am-12pm & 2pm-3:30pm
 
-##### $﻿100 Minimum Order
+#### $﻿100 Minimum Order
 
-##### M﻿ust Call in Order Ahead
+#### M﻿ust Call in Order Ahead
 
-### Stock Boxes
+#### Stock Boxes
 
 We keep a huge inventory of box sizes in stock at our facility. With more than 60 different sizes of corrugated cartons including self-locking and bin boxes, we’ve got what you need in-house, ready to be shipped or picked up at our plant. Our carton prices are extremely competitive with online retailers for all orders that satisfy our minimum order requirement.
 
