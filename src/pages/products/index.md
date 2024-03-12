@@ -40,7 +40,7 @@ We can design and produce a variety of display solutions to assist in effectivel
 
 ### C﻿ustomer Pick up
 
-#### H﻿ours: 8:30am-12pm & 2pm-3:30pm
+#### H﻿ours: 8:30am-11:30am & 2pm-3:30pm
 
 #### $﻿100 Minimum Order
 
