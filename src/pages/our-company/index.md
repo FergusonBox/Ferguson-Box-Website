@@ -28,7 +28,7 @@ team:
   - photo: ../../../static/uploads/Erin_Sales_Customer_Service.jpg
     name: Erin Josey
     title: Packaging Consultant Customer Service
-  - photo: ../../../static/uploads/Heather_HR_Manager.jpg
+  - photo: /uploads/ferguson_box_logo.png
     name: Heather Puskas
     title: HR Manager
   - photo: ../../../static/uploads/Janice_Controller.jpg
@@ -67,7 +67,6 @@ team:
   - photo: ../../../static/uploads/Toby_Sales.jpg
     name: Toby Chrisley
     title: Packaging Consultant
-
 ---
 - - -
 
