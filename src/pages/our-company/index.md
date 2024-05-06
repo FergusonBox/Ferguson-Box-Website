@@ -29,7 +29,7 @@ team:
     name: Erin Josey
     title: Packaging Consultant Customer Service
   - photo: /uploads/ferguson_box_logo.png
-    name: Heather Puskas
+    name: Tim Fuqua
     title: HR Manager
   - photo: ../../../static/uploads/Janice_Controller.jpg
     name: Janice Rappleyea
