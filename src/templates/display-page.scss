@@ -24,8 +24,10 @@
 
   a {
     text-decoration: underline;
-    
-    color: $fb-green;
+  }
+
+  .external-link a {
+    text-decoration: none;
   }
 
   hr {

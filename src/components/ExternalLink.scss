@@ -1,0 +1,26 @@
+@import '../variables.scss';
+
+.external-link {
+  text-align: center;
+  
+  a {
+    padding: 1rem 2.5rem;
+
+    color: white;
+    background-color: $fb-green;
+
+    font-weight: 500;
+    text-decoration: none;
+
+    transition: background-color $transition-time $transition-timing;
+
+    &:hover {
+        background-color: $fb-light-green;
+    }
+
+    &:active {
+        background-color: $fb-green;
+        color: whitesmoke;
+    }
+  }
+}

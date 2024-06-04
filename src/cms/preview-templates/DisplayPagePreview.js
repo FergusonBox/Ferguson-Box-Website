@@ -4,10 +4,10 @@ import { DisplayPageTemplate } from '../../templates/display-page'
 
 const DisplayPagePreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
-  const { heading, html } = data
+  const { heading, careersLink, careersLinkText, html } = data
 
   if (data) {
-    return <DisplayPageTemplate html={html} heading={heading} />
+    return <DisplayPageTemplate html={html} heading={heading} careersLink={careersLink} careersLinkText={careersLinkText} />
   } else {
     return <div>Loading...</div>
   }

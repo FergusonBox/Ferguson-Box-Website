@@ -6,23 +6,31 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import ScrollToTopButton from '../components/ScrollToTopButton'
+import ExternalLink from '../components/ExternalLink'
 
 import '../global.scss'
 import './display-page.scss'
 
-export const DisplayPageTemplate = ({ heading, html }) => (
+export const DisplayPageTemplate = ({ heading, careersLink, careersLinkLabel, html }) => (
   <div className="display-page">
     <h1>{heading}</h1>
     <div
       className="display-page__content"
       dangerouslySetInnerHTML={{ __html: html }}
     ></div>
+    {
+      careersLink && careersLinkLabel && (
+        <ExternalLink link={careersLink} label={careersLinkLabel} />
+      )
+    }
     <ScrollToTopButton />
   </div>
 )
 
 DisplayPageTemplate.propTypes = {
   heading: PropTypes.string.isRequired,
+  careersLink: PropTypes.string,
+  careersLinkLabel: PropTypes.string,
 }
 
 const DisplayPage = ({ data }) => {
@@ -30,7 +38,12 @@ const DisplayPage = ({ data }) => {
 
   return (
     <Layout pageTitle={frontmatter.pageTitle} boxNav={frontmatter.boxNav}>
-      <DisplayPageTemplate html={html} heading={frontmatter.heading} />
+      <DisplayPageTemplate 
+        html={html} 
+        heading={frontmatter.heading} 
+        careersLink={frontmatter.careersLink}
+        careersLinkLabel={frontmatter.careersLinkLabel}
+      />
     </Layout>
   )
 }
@@ -57,6 +70,8 @@ export const pageQuery = graphql`
           title
           IDlink
         }
+        careersLink
+        careersLinkLabel
       }
     }
   }
