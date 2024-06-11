@@ -76,6 +76,16 @@ collections:
           - {label: "Page Title", name: pageTitle, widget: hidden, default: "Products"}
           - {label: "Heading", name: "heading", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/careers/index.md"
+        label: "Careers"
+        name: "careers"
+        fields:
+          - {label: "Template Key", name: templateKey, widget: hidden, default: "display-page"}
+          - {label: "Page Title", name: pageTitle, widget: hidden, default: "Careers"}
+          - {label: "Heading", name: "heading", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Careers Link Label", name: "careersLinkLabel", widget: "string"}
+          - {label: "Careers Link", name: "careersLink", widget: "string"}
       - file: "src/pages/contact/index.md"
         label: "Contact Us"
         name: "contact"
