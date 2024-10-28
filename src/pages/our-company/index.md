@@ -10,9 +10,9 @@ team:
   - photo: ../../../static/img/apple-touch-icon.png
     name: Chip Ferguson
     title: Vice President
-  - photo: ../../../static/uploads/Aiden_Design.jpg
-    name: Aiden Murphy
-    title: Design
+  - photo: /uploads/ferguson_box_logo.png
+    name: Christian Hamlett
+    title: Structural Designer
   - photo: ../../../static/uploads/Barry_Sales.jpg
     name: Barry Gettys
     title: Packaging Consultant
@@ -28,7 +28,7 @@ team:
   - photo: ../../../static/uploads/Erin_Sales_Customer_Service.jpg
     name: Erin Josey
     title: Packaging Consultant Customer Service
-  - photo: /uploads/tim-fuqua-hr-manager-10.25.jpg
+  - photo: /uploads/tim-fuqua-hr-manager-10.28.24.jpg
     name: Tim Fuqua
     title: HR Manager
   - photo: ../../../static/uploads/Janice_Controller.jpg
