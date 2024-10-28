@@ -67,6 +67,9 @@ team:
   - photo: ../../../static/uploads/Toby_Sales.jpg
     name: Toby Chrisley
     title: Packaging Consultant
+  - photo: /uploads/jim-baibak-sales-manager-10.28.24.jpg
+    name: Jim Baibak
+    title: Sales Manager
 ---
 - - -
 
