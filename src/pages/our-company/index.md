@@ -10,9 +10,9 @@ team:
   - photo: ../../../static/img/apple-touch-icon.png
     name: Chip Ferguson
     title: Vice President
-  - photo: /uploads/ferguson_box_logo.png
-    name: Christian Hamlett
-    title: Structural Designer
+  - photo: /uploads/jim-baibak-sales-manager-10.28.24.jpg
+    name: Jim Baibak
+    title: Sales Manager
   - photo: ../../../static/uploads/Barry_Sales.jpg
     name: Barry Gettys
     title: Packaging Consultant
@@ -22,6 +22,9 @@ team:
   - photo: ../../../static/img/apple-touch-icon.png
     name: Charlie Burgess
     title: Packaging Consultant
+  - photo: /uploads/ferguson_box_logo.png
+    name: Christian Hamlett
+    title: Structural Designer
   - photo: ../../../static/uploads/Danny_Plant_Manager.jpg
     name: Danny Boone
     title: Plant Manager
@@ -67,9 +70,6 @@ team:
   - photo: ../../../static/uploads/Toby_Sales.jpg
     name: Toby Chrisley
     title: Packaging Consultant
-  - photo: /uploads/jim-baibak-sales-manager-10.28.24.jpg
-    name: Jim Baibak
-    title: Sales Manager
 ---
 - - -
 
