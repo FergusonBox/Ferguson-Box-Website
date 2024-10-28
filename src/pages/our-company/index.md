@@ -31,9 +31,6 @@ team:
   - photo: ../../../static/uploads/Erin_Sales_Customer_Service.jpg
     name: Erin Josey
     title: Packaging Consultant Customer Service
-  - photo: /uploads/tim-fuqua-hr-manager-10.28.24.jpg
-    name: Tim Fuqua
-    title: HR Manager
   - photo: ../../../static/uploads/Janice_Controller.jpg
     name: Janice Rappleyea
     title: Controller
@@ -67,6 +64,9 @@ team:
   - photo: ../../../static/uploads/Tammy_Customer_Service_Manager.jpg
     name: Tammy Gesselbauer
     title: Customer Service Manager
+  - photo: /uploads/tim-fuqua-hr-manager-10.28.24.jpg
+    name: Tim Fuqua
+    title: HR Manager
   - photo: ../../../static/uploads/Toby_Sales.jpg
     name: Toby Chrisley
     title: Packaging Consultant
