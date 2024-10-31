@@ -4,7 +4,7 @@ pageTitle: Our Company
 heading: Our Company
 ourTeamHeading: Meet Our Team
 team:
-  - photo: ../../../static/uploads/Paige_President.jpg
+  - photo: /uploads/paige-ferguson-burgess.jpeg
     name: Paige Ferguson Burgess
     title: President
   - photo: ../../../static/img/apple-touch-icon.png
