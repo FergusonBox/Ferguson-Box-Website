@@ -31,7 +31,7 @@ const Header = () => {
   `)
   return (
     <div className="header">
-      <a href="/">
+      <a href="/" className="header__logo">
         <GatsbyImage
           image={data.logo.childImageSharp.gatsbyImageData}
           alt="Ferguson Box logo"
