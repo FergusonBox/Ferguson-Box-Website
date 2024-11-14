@@ -6,7 +6,7 @@ import ISOCert from '../../static/uploads/iso_cert_badge.png'
 import SFICert from '../../static/uploads/sfi_cert_badge.png'
 import WBENCCert from '../../static/uploads/wbenc_cert_badge.png'
 import FSCCert from '../../static/uploads/fsc_cert_badge.png'
-import AiCCcert from '../../static/uploads/aicc_cert_badge.jpg'
+import AiCCcert from '../../static/uploads/aicc_cert_badge.png'
 
 import ISOCertDoc from '../../static/uploads/iso_certificate.pdf'
 import SFICertDoc from '../../static/uploads/sfi_certificate.pdf'
