@@ -4,6 +4,7 @@ import ISOCertDoc from '../../static/uploads/iso_certificate.pdf'
 import SFICertDoc from '../../static/uploads/sfi_certificate.pdf'
 import WBENCCertDoc from '../../static/uploads/wbenc_certificate.pdf'
 import FSCCertDoc from '../../static/uploads/fsc_certificate.pdf'
+import AiCCcertDoc from '../../static/uploads/aicc_certificate.pdf'
 
 import './Footer.scss'
 
@@ -45,6 +46,15 @@ const Footer = () => {
           rel="noreferrer"
         >
           WBENC Certified
+        </a>
+        <span>|</span>
+        <a
+          className="footer__certifications__item"
+          href={AiCCcertDoc}
+          target="_blank"
+          rel="noreferrer"
+        >
+          AiCC Certified
         </a>
       </div>
       <p className="footer__content">
