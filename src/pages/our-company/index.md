@@ -16,12 +16,12 @@ team:
   - photo: ../../../static/uploads/Barry_Sales.jpg
     name: Barry Gettys
     title: Packaging Consultant
-  - photo: ../../../static/uploads/Ben_Customer_Service.jpg
-    name: Ben Burgess
-    title: Customer Service
   - photo: ../../../static/img/apple-touch-icon.png
     name: Charlie Burgess
     title: Packaging Consultant
+  - photo: ../../../static/uploads/Ben_Customer_Service.jpg
+    name: Ben Burgess
+    title: Customer Service
   - photo: /uploads/ferguson_box_logo.png
     name: Christian Hamlett
     title: Structural Designer
