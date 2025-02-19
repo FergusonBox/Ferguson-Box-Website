@@ -7,7 +7,7 @@ team:
   - photo: /uploads/paige-ferguson-burgess.jpeg
     name: Paige Ferguson Burgess
     title: President
-  - photo: ../../../static/img/apple-touch-icon.png
+  - photo: /uploads/ferguson_box_logo.png
     name: Chip Ferguson
     title: Vice President
   - photo: /uploads/ferguson_box_logo.png
