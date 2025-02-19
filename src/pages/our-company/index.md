@@ -40,9 +40,6 @@ team:
   - photo: ../../../static/uploads/Jasen_Sales.jpg
     name: Jasen Nolff
     title: Packaging Consultant
-  - photo: ../../../static/uploads/Erin_Sales_Customer_Service.jpg
-    name: Erin Josey
-    title: Packaging Consultant Customer Service
   - photo: ../../../static/uploads/Jenna_Packaging_Consultant.jpg
     name: Jenna Carney
     title: Packaging Consultant
@@ -52,6 +49,12 @@ team:
   - photo: /uploads/shawn-potter.jpg
     name: Shawn Potter
     title: Packaging Consultant
+  - photo: ../../../static/uploads/Tammy_Customer_Service_Manager.jpg
+    name: Tammy Gesselbauer
+    title: Customer Service Manager
+  - photo: ../../../static/uploads/Erin_Sales_Customer_Service.jpg
+    name: Erin Josey
+    title: Packaging Consultant Customer Service
   - photo: ../../../static/img/apple-touch-icon.png
     name: Charlie Burgess
     title: Packaging Consultant
@@ -70,9 +73,6 @@ team:
   - photo: ../../../static/uploads/Steve_Transportation_Supervisor.jpg
     name: Steve Crosby
     title: Transportation Supervisor
-  - photo: ../../../static/uploads/Tammy_Customer_Service_Manager.jpg
-    name: Tammy Gesselbauer
-    title: Customer Service Manager
   - photo: /uploads/tim-fuqua-hr-manager-10.28.24.jpg
     name: Tim Fuqua
     title: HR Manager
