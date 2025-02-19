@@ -10,7 +10,7 @@ team:
   - photo: ../../../static/img/apple-touch-icon.png
     name: Chip Ferguson
     title: Vice President
-  - photo: /uploads/picture1.jpg
+  - photo: /uploads/ferguson_box_logo.png
     name: Jamey Helms
     title: General Manager
   - photo: /uploads/jim-baibak-sales-manager-10.28.24.jpg
@@ -55,7 +55,7 @@ team:
   - photo: ../../../static/uploads/Erin_Sales_Customer_Service.jpg
     name: Erin Josey
     title: Packaging Consultant Customer Service
-  - photo: ../../../static/img/apple-touch-icon.png
+  - photo: /uploads/ferguson_box_logo.png
     name: Charlie Burgess
     title: Packaging Consultant
   - photo: ../../../static/uploads/Ben_Customer_Service.jpg
