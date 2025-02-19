@@ -54,10 +54,10 @@ team:
     title: Customer Service Manager
   - photo: ../../../static/uploads/Erin_Sales_Customer_Service.jpg
     name: Erin Josey
-    title: Packaging Consultant Customer Service
+    title: Customer Service
   - photo: /uploads/ferguson_box_logo.png
     name: Charlie Burgess
-    title: Packaging Consultant
+    title: Customer Service
   - photo: ../../../static/uploads/Ben_Customer_Service.jpg
     name: Ben Burgess
     title: Customer Service
