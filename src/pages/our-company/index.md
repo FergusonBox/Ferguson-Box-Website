@@ -10,11 +10,47 @@ team:
   - photo: ../../../static/img/apple-touch-icon.png
     name: Chip Ferguson
     title: Vice President
+  - photo: /uploads/picture1.jpg
+    name: Jamey Helms
+    title: General Manager
   - photo: /uploads/jim-baibak-sales-manager-10.28.24.jpg
     name: Jim Baibak
     title: Sales Manager
+  - photo: ../../../static/uploads/Danny_Plant_Manager.jpg
+    name: Danny Boone
+    title: Plant Manager
+  - photo: ../../../static/uploads/Janice_Controller.jpg
+    name: Janice Rappleyea
+    title: Controller
+  - photo: ../../../static/uploads/Jeff.jpg
+    name: Jeff Hargett
+    title: Packaging Consultant
   - photo: ../../../static/uploads/Barry_Sales.jpg
     name: Barry Gettys
+    title: Packaging Consultant
+  - photo: ../../../static/uploads/JohnP_Sales.jpg
+    name: John Patyk
+    title: Packaging Consultant
+  - photo: ../../../static/uploads/JohnF_Sales.jpg
+    name: John Furr
+    title: Packaging Consultant
+  - photo: ../../../static/uploads/Toby_Sales.jpg
+    name: Toby Chrisley
+    title: Packaging Consultant
+  - photo: ../../../static/uploads/Jasen_Sales.jpg
+    name: Jasen Nolff
+    title: Packaging Consultant
+  - photo: ../../../static/uploads/Erin_Sales_Customer_Service.jpg
+    name: Erin Josey
+    title: Packaging Consultant Customer Service
+  - photo: ../../../static/uploads/Jenna_Packaging_Consultant.jpg
+    name: Jenna Carney
+    title: Packaging Consultant
+  - photo: ../../../static/uploads/Sam_Packaging_Consultant.jpg
+    name: Sam Wrenn
+    title: Packaging Consultant
+  - photo: /uploads/shawn-potter.jpg
+    name: Shawn Potter
     title: Packaging Consultant
   - photo: ../../../static/img/apple-touch-icon.png
     name: Charlie Burgess
@@ -25,39 +61,12 @@ team:
   - photo: /uploads/ferguson_box_logo.png
     name: Christian Hamlett
     title: Structural Designer
-  - photo: ../../../static/uploads/Danny_Plant_Manager.jpg
-    name: Danny Boone
-    title: Plant Manager
-  - photo: ../../../static/uploads/Erin_Sales_Customer_Service.jpg
-    name: Erin Josey
-    title: Packaging Consultant Customer Service
-  - photo: ../../../static/uploads/Janice_Controller.jpg
-    name: Janice Rappleyea
-    title: Controller
-  - photo: ../../../static/uploads/Jasen_Sales.jpg
-    name: Jasen Nolff
-    title: Packaging Consultant
-  - photo: ../../../static/uploads/Jeff.jpg
-    name: Jeff Hargett
-    title: Packaging Consultant
-  - photo: ../../../static/uploads/Jenna_Packaging_Consultant.jpg
-    name: Jenna Carney
-    title: Packaging Consultant
-  - photo: ../../../static/uploads/JohnF_Sales.jpg
-    name: John Furr
-    title: Packaging Consultant
-  - photo: ../../../static/uploads/JohnP_Sales.jpg
-    name: John Patyk
-    title: Packaging Consultant
   - photo: ../../../static/uploads/Marla_Receptionist.jpg
     name: Marla Whisenant
     title: Receptionist
   - photo: ../../../static/uploads/Nathan_Process_Improvement_Manager.jpg
     name: Nathan Humston
     title: Process Improvement Manager
-  - photo: ../../../static/uploads/Sam_Packaging_Consultant.jpg
-    name: Sam Wrenn
-    title: Packaging Consultant
   - photo: ../../../static/uploads/Steve_Transportation_Supervisor.jpg
     name: Steve Crosby
     title: Transportation Supervisor
@@ -67,12 +76,6 @@ team:
   - photo: /uploads/tim-fuqua-hr-manager-10.28.24.jpg
     name: Tim Fuqua
     title: HR Manager
-  - photo: ../../../static/uploads/Toby_Sales.jpg
-    name: Toby Chrisley
-    title: Packaging Consultant
-  - photo: /uploads/shawn-potter.jpg
-    name: Shawn Potter
-    title: Packaging Consultant
 ---
 - - -
 
