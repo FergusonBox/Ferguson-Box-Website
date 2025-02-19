@@ -70,6 +70,9 @@ team:
   - photo: ../../../static/uploads/Toby_Sales.jpg
     name: Toby Chrisley
     title: Packaging Consultant
+  - photo: /uploads/shawn-potter.jpg
+    name: Shawn Potter
+    title: Packaging Consultant
 ---
 - - -
 
