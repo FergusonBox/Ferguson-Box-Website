@@ -12,11 +12,11 @@ Since 1959, **FERGUSON SUPPLY & BOX MANUFACTURING COMPANY** has been a leader in
 **FERGUSON SUPPLY & BOX MANUFACTURING COMPANY**
 
 We're committed to supporting our team with an outstanding benefits package:
+
 * Affordable Pre-Tax Medical Insurance Plan Options
 * Comprehensive Prescription Drug Plan
 * Health Savings Account (HSA) with Company Contributions
 * Flexible Spending Account (FSA)
-* Health Reimbursement Arrangement (HRA)
 * Robust Dental and Vision Plans
 * 401(k) with Company Match and Profit Sharing
 * Company Paid Life and AD&D Insurance
@@ -24,7 +24,6 @@ We're committed to supporting our team with an outstanding benefits package:
 * 10 Company Paid Holidays
 * Generous Paid Time Off (PTO) Plan
 * Employee Assistance Programs for Your Peace of Mind
-* Career Development and Incentive Compensation Opportunities
 
 **Join our team and thrive in a rewarding career with FERGUSON BOX!**
 
