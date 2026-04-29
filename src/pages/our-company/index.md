@@ -57,7 +57,7 @@ team:
     title: Customer Service
   - photo: /uploads/ferguson_box_logo.png
     name: Charlie Burgess
-    title: Customer Service
+    title: Packaging Consultant
   - photo: ../../../static/uploads/Ben_Customer_Service.jpg
     name: Ben Burgess
     title: Customer Service
