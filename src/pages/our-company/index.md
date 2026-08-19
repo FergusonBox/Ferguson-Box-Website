@@ -10,9 +10,6 @@ team:
   - photo: /uploads/ferguson_box_logo.png
     name: Chip Ferguson
     title: Vice President
-  - photo: /uploads/ferguson_box_logo.png
-    name: Jamey Helms
-    title: General Manager
   - photo: /uploads/jim-baibak-sales-manager-10.28.24.jpg
     name: Jim Baibak
     title: Sales Manager
@@ -25,17 +22,11 @@ team:
   - photo: ../../../static/uploads/Jeff.jpg
     name: Jeff Hargett
     title: Packaging Consultant
-  - photo: ../../../static/uploads/Barry_Sales.jpg
-    name: Barry Gettys
-    title: Packaging Consultant
   - photo: ../../../static/uploads/JohnP_Sales.jpg
     name: John Patyk
     title: Packaging Consultant
   - photo: ../../../static/uploads/JohnF_Sales.jpg
     name: John Furr
-    title: Packaging Consultant
-  - photo: ../../../static/uploads/Toby_Sales.jpg
-    name: Toby Chrisley
     title: Packaging Consultant
   - photo: ../../../static/uploads/Jasen_Sales.jpg
     name: Jasen Nolff
@@ -45,9 +36,6 @@ team:
     title: Packaging Consultant
   - photo: ../../../static/uploads/Sam_Packaging_Consultant.jpg
     name: Sam Wrenn
-    title: Packaging Consultant
-  - photo: /uploads/shawn-potter.jpg
-    name: Shawn Potter
     title: Packaging Consultant
   - photo: ../../../static/uploads/Tammy_Customer_Service_Manager.jpg
     name: Tammy Gesselbauer
